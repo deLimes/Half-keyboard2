@@ -1,0 +1,10 @@
+#define IDI_ICON1                 101
+#define IDI_ICON2                 102
+#define IDD_REFERENCE             103
+#define IDD_ABOUT                 104
+#define IDR_MENU1                 130
+#define ID_MENU_Switching         32771
+#define ID_MENU_Reference         32772
+#define ID_MENU_About             32773
+#define ID_MENU_EXIT              32774
+#define IDC_STATIC				-1
