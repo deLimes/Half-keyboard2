@@ -79,7 +79,7 @@ BOOL TrayMessage(HWND hDlg, DWORD dwMessage, UINT uID, HICON hIcon, PSTR pszTip)
 
 LRESULT CALLBACK keyboardHook(int nCode, WPARAM wParam, LPARAM lParam)
 {
-	KBDLLHOOKSTRUCT *p = reinterpret_cast<KBDLLHOOKSTRUCT *>(lParam);
+	KBDLLHOOKSTRUCT* p = reinterpret_cast<KBDLLHOOKSTRUCT*>(lParam);
 	DWORD newVkCode;
 	INPUT inputs[1];
 	UINT ret;
@@ -150,16 +150,19 @@ LRESULT CALLBACK keyboardHook(int nCode, WPARAM wParam, LPARAM lParam)
 		PostMessage(GetForegroundWindow(), WM_INPUTLANGCHANGEREQUEST, 2, 0);
 		return 1;
 	}
-
-	if (CaptureEnabled)
+	if (!CaptureEnabled)
 	{
-		
+		return 0;
+	}
+	else
+	{
+
 		//Space
 		if (!RControl)
 		{
 			if (p->vkCode == VK_SPACE && wParam == WM_KEYDOWN)
 			{
- 				if (Delay == 0)
+				if (Delay == 0)
 				{
 					ClampedGap = true;
 					Delay = p->time;
@@ -198,16 +201,16 @@ LRESULT CALLBACK keyboardHook(int nCode, WPARAM wParam, LPARAM lParam)
 		else if ((p->vkCode == 163) && (wParam == WM_KEYUP || wParam == WM_SYSKEYUP))
 			RControl = false;
 
-								
+
 		//
 		/*if (p->vkCode == 162 && p->scanCode == 541)
 			return 1;*/
-		///////////////////////////
-		/*else if ((p->vkCode == 162) && (wParam == WM_KEYUP || wParam == WM_SYSKEYUP))
-			Control = false;*/
-		///////////////////////////
+			///////////////////////////
+			/*else if ((p->vkCode == 162) && (wParam == WM_KEYUP || wParam == WM_SYSKEYUP))
+				Control = false;*/
+				///////////////////////////
 
-		//Caps Lock right hand
+				//Caps Lock right hand
 		if (p->vkCode == 222 && (p->flags & LLKHF_INJECTED) == 0 && ClampedGap) {
 
 			ClampedGap = false;
@@ -382,6 +385,10 @@ LRESULT CALLBACK MouseProc(int nCode, WPARAM wParam, LPARAM lParam)
 	//HWND AppWnd;
 	///
 	//KBDLLHOOKSTRUCT *p = reinterpret_cast<KBDLLHOOKSTRUCT *>(lParam);
+	if (!CaptureEnabled)
+	{
+		return 0;
+	}
 	INPUT inputs[1];
 	UINT ret;
 
@@ -531,7 +538,7 @@ LRESULT CALLBACK MouseProc(int nCode, WPARAM wParam, LPARAM lParam)
 	return 0;
 }
 
-bool isProcessRun(char *processName)
+bool isProcessRun(char* processName)
 {
 	bool Relitigation = false;
 
@@ -553,7 +560,11 @@ bool isProcessRun(char *processName)
 				}
 		}
 	}
-	CloseHandle(hSnap);
+	if (hSnap)
+	{
+		CloseHandle(hSnap);
+	}
+
 	return FALSE;
 }
 
@@ -817,12 +828,15 @@ int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 	/////
 
 	//	HWND hWnd = GetForegroundWindow();
+	/*На время использования Mause Button Controll v.2.20.5
+	* отключил, из-за конфликта
 	mousehook = SetWindowsHookEx(WH_MOUSE_LL, MouseProc, NULL, 0);
 	if (mousehook == NULL) {
 		printf("Error %d\n", GetLastError());
 		system("pause");
 		return 1;
 	}
+	*/
 
 	//printf("Waiting for messages ...\n");
 	while (GetMessage(&messages, NULL, 0, 0)) {
