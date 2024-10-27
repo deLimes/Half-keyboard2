@@ -1,24 +1,13 @@
-﻿Сборка начата 21.04.2017 17:25:26.
-     1>Проект "D:\Visual Studio 2013\Projects\Half keyboard2\GetKey\GetKey.vcxproj" в узле 2 (целевые объекты Build).
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (GetKey.vcxproj, Half keyboard.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-     1>ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
-         main.cpp
-     1>d:\visual studio 2013\projects\half keyboard2\getkey\main.cpp(106): warning C4244: =: преобразование "DWORD" в "char", возможна потеря данных
-     1>d:\visual studio 2013\projects\half keyboard2\getkey\main.cpp(248): warning C4551: в вызове функции отсутствует список аргументов
-     1>d:\visual studio 2013\projects\half keyboard2\getkey\main.cpp(249): warning C4551: в вызове функции отсутствует список аргументов
-     1>d:\visual studio 2013\projects\half keyboard2\getkey\main.cpp(354): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
-     1>d:\visual studio 2013\projects\half keyboard2\getkey\main.cpp(360): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
-     1>d:\visual studio 2013\projects\half keyboard2\getkey\main.cpp(83): warning C4101: newVkCode: неиспользованная локальная переменная
-     1>d:\visual studio 2013\projects\half keyboard2\getkey\main.cpp(630): warning C4551: в вызове функции отсутствует список аргументов
-     1>d:\visual studio 2013\projects\half keyboard2\getkey\main.cpp(631): warning C4551: в вызове функции отсутствует список аргументов
-     1>d:\visual studio 2013\projects\half keyboard2\getkey\main.cpp(833): warning C4715: WinMain: значение возвращается не при всех путях выполнения
-       Link:
-         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Visual Studio 2013\Projects\Half keyboard2\Debug\HalfKeyboard.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Visual Studio 2013\Projects\Half keyboard2\Debug\HalfKeyboard.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Visual Studio 2013\Projects\Half keyboard2\Debug\HalfKeyboard.lib" /MACHINE:X86 Debug\resource.res
-         Debug\main.obj
-         GetKey.vcxproj -> D:\Visual Studio 2013\Projects\Half keyboard2\Debug\HalfKeyboard.exe
-     1>Сборка проекта "D:\Visual Studio 2013\Projects\Half keyboard2\GetKey\GetKey.vcxproj" завершена (целевые объекты Build).
-
-Сборка успешно завершена.
-
-Затраченное время: 00:00:02.28
+﻿D:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (GetKey.vcxproj, Half keyboard.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  main.cpp
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(115,15): warning C4244: =: преобразование "DWORD" в "char", возможна потеря данных
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(260,4): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(261,4): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(366,27): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(372,26): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(92,8): warning C4101: newVkCode: неиспользованная локальная переменная
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(650,4): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(651,4): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(856,1): warning C4715: WinMain: значение возвращается не при всех путях выполнения
+  LINK : не найден или не выполнена сборка C:\Users\38301\source\repos\Half-keyboard2\Debug\HalfKeyboard.exe при последней инкрементной компоновке; выполняется полная компоновка
+  GetKey.vcxproj -> C:\Users\38301\source\repos\Half-keyboard2\Debug\HalfKeyboard.exe

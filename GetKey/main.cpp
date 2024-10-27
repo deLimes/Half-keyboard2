@@ -64,12 +64,21 @@ BOOL TrayMessage(HWND hDlg, DWORD dwMessage, UINT uID, HICON hIcon, PSTR pszTip)
 
 	if (pszTip)
 	{
-		lstrcpyn(tnd.szTip, pszTip, sizeof(tnd.szTip));
+		// Сохраняем возвращаемое значение
+		LPSTR result = lstrcpyn(tnd.szTip, pszTip, sizeof(tnd.szTip));
+		// Обработка результата (если необходимо)
+		if (result == tnd.szTip) {
+			// Копирование прошло успешно
+		}
+		else {
+			// Обработка случая, если строка была обрезана
+		}
 	}
 	else
 	{
 		tnd.szTip[0] = '\0';
 	}
+
 
 	res = Shell_NotifyIcon(dwMessage, &tnd);
 
