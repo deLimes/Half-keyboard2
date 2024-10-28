@@ -6,8 +6,7 @@ C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(261,4): warning C4551
 C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(366,27): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
 C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(372,26): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
 C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(92,8): warning C4101: newVkCode: неиспользованная локальная переменная
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(650,4): warning C4551: в вызове функции отсутствует список аргументов
 C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(651,4): warning C4551: в вызове функции отсутствует список аргументов
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(856,1): warning C4715: WinMain: значение возвращается не при всех путях выполнения
-  LINK : не найден или не выполнена сборка C:\Users\38301\source\repos\Half-keyboard2\Debug\HalfKeyboard.exe при последней инкрементной компоновке; выполняется полная компоновка
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(652,4): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(858,1): warning C4715: WinMain: значение возвращается не при всех путях выполнения
   GetKey.vcxproj -> C:\Users\38301\source\repos\Half-keyboard2\Debug\HalfKeyboard.exe
