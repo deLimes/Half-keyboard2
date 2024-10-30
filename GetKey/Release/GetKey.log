@@ -1,16 +1,22 @@
 ﻿  main.cpp
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(465,15): warning C4244: =: преобразование "DWORD" в "char", возможна потеря данных
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(612,4): warning C4551: в вызове функции отсутствует список аргументов
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(613,4): warning C4551: в вызове функции отсутствует список аргументов
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(722,27): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(728,26): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(442,8): warning C4101: newVkCode: неиспользованная локальная переменная
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1055,4): warning C4551: в вызове функции отсутствует список аргументов
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1056,4): warning C4551: в вызове функции отсутствует список аргументов
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1279,33): warning C4302: приведение типов: усечение из "LPSTR" к "WORD"
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(420,15): warning C4244: =: преобразование "DWORD" в "char", возможна потеря данных
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(565,4): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(566,4): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(671,27): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(677,26): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(397,8): warning C4101: newVkCode: неиспользованная локальная переменная
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(765,15): warning C4244: =: преобразование "DWORD" в "char", возможна потеря данных
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(912,4): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(913,4): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1022,27): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1028,26): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(742,8): warning C4101: newVkCode: неиспользованная локальная переменная
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1381,4): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1382,4): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1587,33): warning C4302: приведение типов: усечение из "LPWSTR" к "WORD"
   Создание кода
-  0 of 455 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1817): warning C4715: WinMain: значение возвращается не при всех путях выполнения
+  All 470 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Создание кода завершено
   GetKey.vcxproj -> C:\Users\38301\source\repos\Half-keyboard2\Release\HalfKeyboard.exe
