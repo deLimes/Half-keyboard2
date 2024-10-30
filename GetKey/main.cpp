@@ -15,9 +15,9 @@
 
 #include <vector>
 #include <string>
-#include <cctype> // Подключение для isprint
-#include <ctype.h> // для C
-#include <fstream> // Добавляем этот заголовочный файл
+#include <cctype> // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ isprint
+#include <ctype.h> // пїЅпїЅпїЅ C
+#include <fstream> // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
 #include <set>
 #include <fstream>
 //#include <winuser.h>
@@ -29,7 +29,7 @@ using namespace std;
 //////////////////////////////////////
 
 #define MYWM_NOTIFYICON (WM_USER + 1)
-// Описываем сообщение, которое будет посылаться при взаимодействии юзера с нашей иконкой в систрее
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
 HHOOK hook;
 HHOOK mousehook;
@@ -44,7 +44,7 @@ bool CaptureEnabled = true;
 HKL hkl = GetKeyboardLayout(0);
 HINSTANCE hInst;
 HWND hWnd;
-HWND hWndSuggestions = nullptr; // Глобальная переменная для окна с подсказками
+HWND hWndSuggestions = nullptr; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 POINT point;
 wstring matchedSuggestions;
 static HWND hWndEdit = NULL;
@@ -61,7 +61,7 @@ bool lRetFalse = false;
 bool rRetFalse = false;
 bool mRetFalse = false;
 //
-// Глобальная переменная для отслеживания ввода
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
 wstring input;
 
 /*  Declare Windows procedure  */
@@ -69,13 +69,13 @@ LRESULT CALLBACK WndProcA(HWND, UINT, WPARAM, LPARAM);
 LRESULT CALLBACK SuggestionsWndProc(HWND, UINT, WPARAM, LPARAM);
 
 vector<wstring> suggestions;
-set<wstring> uniqueSuggestions; // Для хранения уникальных предложений
+set<wstring> uniqueSuggestions; // пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
 
-int selectedSuggestion = -1; // Индекс текущего выбранного предложения
+int selectedSuggestion = -1; // пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
 void UpdateSuggestions();
-void InsertSuggestionInInput(HWND hWndEdit, const string& text);
+//void InsertSuggestionInInput(HWND hWndEdit, const string& text);
 void InitializeSuggestionWindow(HINSTANCE hInstance);
 
 	
@@ -83,11 +83,11 @@ void InitializeSuggestionWindow(HINSTANCE hInstance);
 void OnKeyDown(WPARAM wParam, HWND hWndEdit) {
 	switch (wParam) {
 	case VK_DOWN:
-		selectedSuggestion = (selectedSuggestion + 1) % suggestions.size(); // Переход вниз
+		selectedSuggestion = (selectedSuggestion + 1) % suggestions.size(); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
 		UpdateSuggestions();
 		break;
 	case VK_UP:
-		selectedSuggestion = (selectedSuggestion - 1 + suggestions.size()) % suggestions.size(); // Переход вверх
+		selectedSuggestion = (selectedSuggestion - 1 + suggestions.size()) % suggestions.size(); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
 		UpdateSuggestions();
 		break;
 	}
@@ -101,42 +101,45 @@ void Log(const string& message) {
 }
 
 
+
 void SaveSuggestions(const vector<wstring>& suggestions, const wstring& filename) {
-	wofstream file(filename);
+	wofstream file(filename);  // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ wofstream пїЅпїЅпїЅ Unicode
+	file.imbue(locale(""));    // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ Unicode
+
 	if (!file.is_open()) {
-		wcerr << L"Не удалось открыть файл для записи: " << filename << endl;
+		wcerr << L"пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ: " << filename << endl;
 		return;
 	}
 
 	for (const auto& suggestion : suggestions) {
-		file << suggestion << endl; // Записываем каждую строку в файл
+		file << suggestion << L"\n"; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ
 	}
 
-	file.close(); // Закрываем файл после записи
-	wcout << L"Файл успешно записан: " << filename << endl; // Сообщение об успешной записи
+	file.close(); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+	wcout << L"пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: " << filename << endl; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 }
 
 vector<wstring> LoadSuggestions(const wstring& filename) {
 	vector<wstring> suggestions;
 	wifstream file(filename);
 	if (!file.is_open()) {
-		wcerr << L"Не удалось открыть файл для чтения: " << filename << endl;
+		wcerr << L"пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ: " << filename << endl;
 		return suggestions;
 	}
 
 	wstring line;
 	while (getline(file, line)) {
-		suggestions.push_back(line); // Загружаем каждую строку из файла в вектор
+		suggestions.push_back(line); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 	}
 
-	file.close(); // Закрываем файл после чтения
+	file.close(); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 	return suggestions;
 }
 
 POINT getCaretPosition(HWND hwnd) {
 	POINT point;
 	if (GetCaretPos(&point)) {
-		// Преобразуем координаты в экранные
+		// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 		ClientToScreen(hwnd, &point);
 		return point;
 	}
@@ -147,11 +150,11 @@ POINT getCaretPosition(HWND hwnd) {
 	}
 }
 
-// Функция получения позиции каретки с учетом пересчета в экранные координаты
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 POINT GetAdjustedCaretPosition(HWND hwndEdit) {
 	POINT caretPos;
  	if (GetCaretPos(&caretPos)) {
-		// Пересчитываем координаты каретки в экранные
+		// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 		ClientToScreen(hwndEdit, &caretPos);
 	}
 	else {
@@ -162,24 +165,24 @@ POINT GetAdjustedCaretPosition(HWND hwndEdit) {
 }
 
 void SendString(const wstring& text) {
-	INPUT inputs[2]; // Для каждого символа нужны два INPUT (нажатие и отпускание клавиши)
+	INPUT inputs[2]; // пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ INPUT (пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ)
 	ZeroMemory(inputs, sizeof(inputs));
 
 	for (wchar_t ch : text) {
-		// Настройка нажатия клавиши (KEYDOWN)
+		// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (KEYDOWN)
 		if (input.find(ch) == 0 && !input.empty()) {
 			continue;
 		}
 		inputs[0].type = INPUT_KEYBOARD;
-		inputs[0].ki.wVk = 0; // Не используется для символов Unicode
+		inputs[0].ki.wVk = 0; // пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ Unicode
 		inputs[0].ki.wScan = ch;
 		inputs[0].ki.dwFlags = KEYEVENTF_UNICODE;
-		Sleep(100);
-		// Настройка отпускания клавиши (KEYUP)
+		//Sleep(100);
+		// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (KEYUP)
 		inputs[1] = inputs[0];
 		inputs[1].ki.dwFlags = KEYEVENTF_UNICODE | KEYEVENTF_KEYUP;
 
-		// Отправляем нажатие и отпускание
+		// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 		SendInput(2, inputs, sizeof(INPUT));
 		Sleep(100);
 	}
@@ -192,15 +195,15 @@ wstring stringToWstring(const string& str) {
 	return wstr;
 }
 
-// Функция для подстановки выбранного слова
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
 void InsertSelectedSuggestion(const wstring& word) {
-	//HWND hWndEdit = GetForegroundWindow(); // Окно, где идет набор текста
+	//HWND hWndEdit = GetForegroundWindow(); // пїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 
-		// Подстановка текста в поле ввода
+		// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
 		//SendMessage(hWndEdit, EM_REPLACESEL, TRUE, (LPARAM)word.c_str());
 	
 	SetForegroundWindow(hWndEdit);
-	Sleep(100); // Немного ждем для активации окна
+	Sleep(100); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
 	
 	//wstring wtext = stringToWstring(word);
 	SendString(word);
@@ -209,7 +212,7 @@ void InsertSelectedSuggestion(const wstring& word) {
 	SetWindowPos(hWndSuggestions, HWND_TOP, CW_USEDEFAULT, CW_USEDEFAULT, 0, 0, SWP_HIDEWINDOW);
 
 	SetForegroundWindow(hWndEdit);
-	Sleep(100); // Немного ждем для активации окна
+	Sleep(100); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
 
 }
 
@@ -219,15 +222,15 @@ void UpdateSuggestionsWindow(HWND hwndSuggestions, const wstring& text) {
 	HDC hdc = GetDC(hwndSuggestions);
 	RECT rect = { 0, 0, 0, 0 };
 
-	// Получаем размер текста
+	// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 	DrawTextW(hdc, text.c_str(), -1, &rect, DT_CALCRECT);
 
-	// Задаём текст в окне подсказок
+	// пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	SetWindowTextW(hwndSuggestions, text.c_str());
 
-	// Изменяем размер окна в соответствии с размером текста
+	// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 	SetWindowPos(hwndSuggestions, HWND_TOP, 0, 0, rect.right - rect.left + 10, rect.bottom - rect.top + 10, SWP_NOZORDER | SWP_NOMOVE);
-	// Обновление окна 
+	// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ 
 	InvalidateRect(hWndSuggestions, NULL, TRUE);
 	UpdateWindow(hWndSuggestions);
 
@@ -241,10 +244,10 @@ void UpdateSuggestionsWindow(HWND hwndSuggestions, const wstring& text) {
 
 
 HWND GetEditWindow() {
-	// Получаем активное окно
+	// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
 	HWND hwnd = GetForegroundWindow();
 	if (hwnd != NULL) {
-		// Ищем дочернее окно класса "Edit" в активном окне
+		// пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ "Edit" пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
 		HWND hwndEdit = FindWindowEx(hwnd, NULL, "Edit", NULL);
 		if (hwndEdit == NULL) {
 			cerr << "Edit control not found in active window" << endl;
@@ -280,7 +283,7 @@ POINT GetCaretPosition() {
 POINT GetCaretPosFromFocusedWindow() {
 	POINT caretPos = { -1, -1 };
 
-	// Получаем дескриптор активного окна
+	// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
 	HWND hwnd = GetForegroundWindow();
 	if (hwnd == NULL) {
 		cerr << "No active window found" << endl;
@@ -290,12 +293,12 @@ POINT GetCaretPosFromFocusedWindow() {
 	GUITHREADINFO guiThreadInfo = { 0 };
 	guiThreadInfo.cbSize = sizeof(GUITHREADINFO);
 
-	// Получаем информацию о потоке GUI, включая каретку
+	// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ GUI, пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	if (GetGUIThreadInfo(0, &guiThreadInfo)) {
 		if (guiThreadInfo.hwndCaret != NULL) {
-			// Получаем позицию каретки
+			// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 			if (GetCaretPos(&caretPos)) {
-				// Преобразуем координаты в экранные
+				// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 				ClientToScreen(guiThreadInfo.hwndCaret, &caretPos);
 				return caretPos;
 			}
@@ -306,20 +309,20 @@ POINT GetCaretPosFromFocusedWindow() {
 
 
 
-// Функция для обновления окна с подсказками
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 void UpdateSuggestions() {
 	
-	// Пример: фильтрация предложений по введенному тексту
+	// пїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 	uniqueSuggestions.clear();
 	for (const auto& suggestion : suggestions) {
 		if (suggestion.find(input) == 0 && !input.empty()) {
-			uniqueSuggestions.insert(suggestion); // Добавляем только уникальные предложения
+			uniqueSuggestions.insert(suggestion); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 		}
 	}
 	matchedSuggestions.clear();
-	// Собираем уникальные предложения в строку
+	// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 	for (const auto& suggestion : uniqueSuggestions) {
-		matchedSuggestions += suggestion + L"\r\n"; // Формируем строку
+		matchedSuggestions += suggestion + L"\r\n"; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 	}
 	
 	
@@ -336,7 +339,7 @@ void UpdateSuggestions() {
 
 void InitializeSuggestionWindow(HINSTANCE hInstance) {
 	
-	// Создайте окно подсказок
+	// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	hWndSuggestions = CreateWindowEx(
 		WS_EX_TOPMOST,
 		"SuggestionsWndClass",
@@ -350,12 +353,12 @@ void InitializeSuggestionWindow(HINSTANCE hInstance) {
 		NULL
 	);
 
-	// Устанавливаем шрифт для удобства чтения
+	// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 	HFONT hFont = (HFONT)GetStockObject(DEFAULT_GUI_FONT);
 	SendMessage(hWndSuggestions, WM_SETFONT, (WPARAM)hFont, TRUE);
 }
 
-void TrayMessage(HWND hWnd, DWORD dwMessage, UINT uID, HICON hIcon, const char* message) {
+void TrayMessage_(HWND hWnd, DWORD dwMessage, UINT uID, HICON hIcon, const char* message) {
 	NOTIFYICONDATA nid;
 	nid.cbSize = sizeof(NOTIFYICONDATA);
 	nid.hWnd = hWnd;
@@ -363,14 +366,14 @@ void TrayMessage(HWND hWnd, DWORD dwMessage, UINT uID, HICON hIcon, const char* 
 	nid.uFlags = NIF_INFO;
 	nid.dwInfoFlags = NIIF_INFO;
 
-	// Используем изменяемую строку
-	strcpy_s(nid.szInfo, sizeof(nid.szInfo), message); // копируем сообщение
-	strcpy_s(nid.szInfoTitle, sizeof(nid.szInfoTitle), "Предсказанное слово"); // копируем заголовок
+	// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+	strcpy_s(nid.szInfo, sizeof(nid.szInfo), message); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+	strcpy_s(nid.szInfoTitle, sizeof(nid.szInfoTitle), "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
 	Shell_NotifyIcon(dwMessage, &nid);
 }
 
-BOOL TrayMessageA(HWND hDlg, DWORD dwMessage, UINT uID, HICON hIcon, PSTR pszTip)
+BOOL TrayMessage(HWND hDlg, DWORD dwMessage, UINT uID, HICON hIcon, PSTR pszTip)
 // systray icon 
 {
 	BOOL res;
@@ -382,19 +385,19 @@ BOOL TrayMessageA(HWND hDlg, DWORD dwMessage, UINT uID, HICON hIcon, PSTR pszTip
 	tnd.uID = uID;
 
 	tnd.uFlags = NIF_MESSAGE | NIF_ICON | NIF_TIP;
-	tnd.uCallbackMessage = MYWM_NOTIFYICON; // Сообщение, которое пошлется при всяких там кликах на иконке... 
+	tnd.uCallbackMessage = MYWM_NOTIFYICON; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ... 
 	tnd.hIcon = hIcon;
 
 	if (pszTip)
 	{
-		// Сохраняем возвращаемое значение
+		// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 		LPSTR result = lstrcpyn(tnd.szTip, pszTip, sizeof(tnd.szTip));
-		// Обработка результата (если необходимо)
+		// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ)
 		if (result == tnd.szTip) {
-			// Копирование прошло успешно
+			// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 		}
 		else {
-			// Обработка случая, если строка была обрезана
+			// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 		}
 	}
 	else
@@ -411,17 +414,17 @@ BOOL TrayMessageA(HWND hDlg, DWORD dwMessage, UINT uID, HICON hIcon, PSTR pszTip
 
 
 bool IsRussianKeyboardLayout() {
-	// Получаем окно в фокусе
+	// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 	HWND hWnd = GetForegroundWindow();
 	if (hWnd == NULL) return false;
 
-	// Получаем идентификатор потока для окна в фокусе
+	// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 	DWORD threadId = GetWindowThreadProcessId(hWnd, NULL);
 
-	// Получаем раскладку клавиатуры для этого потока
+	// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 	HKL hkl = GetKeyboardLayout(threadId);
 
-	// Проверяем, что раскладка соответствует русской (0x0419)
+	// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (0x0419)
 	return (LOWORD(hkl) == 0x0419);
 }
 
@@ -432,6 +435,7 @@ wstring ConvertToWString(const string& str) {
 	return wstr;
 }
 */
+
 
 LRESULT CALLBACK keyboardHook(int nCode, WPARAM wParam, LPARAM lParam)
 {
@@ -491,11 +495,11 @@ LRESULT CALLBACK keyboardHook(int nCode, WPARAM wParam, LPARAM lParam)
 	{
 		CaptureEnabled = !CaptureEnabled;
 		if (CaptureEnabled)
-			//	MessageBox(0, "Захват включен", "Активация Half keyboard", MB_ICONINFORMATION);		
-			TrayMessageA(hWnd, NIM_MODIFY, 0, LoadIcon(hInst, MAKEINTRESOURCE(IDI_ICON1)), "Half keyboard\n(Захват включен)");
+			//	MessageBox(0, "Г‡Г ГµГўГ ГІ ГўГЄГ«ГѕГ·ГҐГ­", "ГЂГЄГІГЁГўГ Г¶ГЁГї Half keyboard", MB_ICONINFORMATION);		
+			TrayMessage(hWnd, NIM_MODIFY, 0, LoadIcon(hInst, MAKEINTRESOURCE(IDI_ICON1)), "Half keyboard\n(Г‡Г ГµГўГ ГІ ГўГЄГ«ГѕГ·ГҐГ­)");
 		else
-			//	MessageBox(0, "Захват выключен", "Дективация Half keyboard", MB_ICONSTOP);
-			TrayMessageA(hWnd, NIM_MODIFY, 0, LoadIcon(hInst, MAKEINTRESOURCE(IDI_ICON2)), "Half keyboard\n(Захват выключен)");
+			//	MessageBox(0, "Г‡Г ГµГўГ ГІ ГўГ»ГЄГ«ГѕГ·ГҐГ­", "Г„ГҐГЄГІГЁГўГ Г¶ГЁГї Half keyboard", MB_ICONSTOP);
+			TrayMessage(hWnd, NIM_MODIFY, 0, LoadIcon(hInst, MAKEINTRESOURCE(IDI_ICON2)), "Half keyboard\n(Г‡Г ГµГўГ ГІ ГўГ»ГЄГ«ГѕГ·ГҐГ­)");
 
 		return 1;
 	}
@@ -537,7 +541,6 @@ LRESULT CALLBACK keyboardHook(int nCode, WPARAM wParam, LPARAM lParam)
 					inputs[0].ki.dwFlags = KEYEVENTF_UNICODE;
 					inputs[0].ki.wScan = 0x0020; //" " SPACE
 					ret = SendInput(1, inputs, sizeof(INPUT));
-					input.clear();//%%C
 				}
 				Delay = 0;
 				return 1;
@@ -598,7 +601,6 @@ LRESULT CALLBACK keyboardHook(int nCode, WPARAM wParam, LPARAM lParam)
 				ret = SendInput(1, inputs, sizeof(INPUT));
 				inputs[0].ki.dwFlags = KEYEVENTF_KEYUP;
 				ret = SendInput(1, inputs, sizeof(INPUT));
-				input.clear();//%%C
 				return 1;
 			}
 		}
@@ -608,8 +610,8 @@ LRESULT CALLBACK keyboardHook(int nCode, WPARAM wParam, LPARAM lParam)
 
 			UnhookWindowsHookEx;
 			UnhookWindowsHookEx;
-			MessageBox(0, "Закончили", "Всего хорошего!!!", 65536);//MsgBoxSetForeground
-			TrayMessageA(hWnd, NIM_DELETE, 0, 0, 0);
+			MessageBox(0, "Г‡Г ГЄГ®Г­Г·ГЁГ«ГЁ", "Г‚Г±ГҐГЈГ® ГµГ®Г°Г®ГёГҐГЈГ®!!!", 65536);//MsgBoxSetForeground
+			TrayMessage(hWnd, NIM_DELETE, 0, 0, 0);
 			exit(0);
 
 			return 1;
@@ -634,14 +636,10 @@ LRESULT CALLBACK keyboardHook(int nCode, WPARAM wParam, LPARAM lParam)
 
 			return 1;
 		}
-		
-		
+
 		//Other characters
 		if (MatchingKeys[p->vkCode] > 0)
 		{
-			
-
-
 			if ((p->flags & LLKHF_INJECTED) == 0 && ClampedGap) {
 				if (Shift)
 				{
@@ -650,7 +648,7 @@ LRESULT CALLBACK keyboardHook(int nCode, WPARAM wParam, LPARAM lParam)
 					inputs[0].ki.dwFlags = 0;
 					ret = SendInput(1, inputs, sizeof(INPUT));
 				}
-				//п
+				//ГЇ
 				inputs[0].ki.wVk = MatchingKeys[p->vkCode];
 				ret = SendInput(1, inputs, sizeof(INPUT));
 
@@ -678,7 +676,7 @@ LRESULT CALLBACK keyboardHook(int nCode, WPARAM wParam, LPARAM lParam)
 					inputs[0].ki.dwFlags = 0;
 					ret = SendInput(1, inputs, sizeof(INPUT));
 				}
-				//х,ъ-tab,ё
+				//Гµ,Гє-tab,Вё
 				if (LControl)
 				{
 					inputs[0].ki.wVk = 162;
@@ -734,52 +732,51 @@ LRESULT CALLBACK keyboardHook(int nCode, WPARAM wParam, LPARAM lParam)
 					ret = SendInput(1, inputs, sizeof(INPUT));
 					Shift = false;
 				}
-
-
-				
 				return 1;
 			}
-		}
+			
+			////////////////////////////////////////////////////////////////////
+			//%%C
+			if (GetCaretPos(&point)) {
+				HWND hWndEditA = GetForegroundWindow();
 
-		//%%C
-		if (GetCaretPos(&point)) {
-			HWND hWndEditA = GetForegroundWindow();
-
-			if (hWndEdit != hWndEditA && hWndEditA != hWndSuggestions) {
-				hWndEdit = hWndEditA; // Обновляем активное окно, если это не окно с подсказками
-			}
-			SetForegroundWindow(hWndEdit);
-			Sleep(100); // Немного ждем для активации окна
-			point = GetCaretPosition();
-			ClientToScreen(hWndEdit, &point);
-		}
-
-		//UpdateSuggestions(); // Обновляем подсказки
-		//%%C
-
-		//KBDLLHOOKSTRUCT* p = reinterpret_cast<KBDLLHOOKSTRUCT*>(lParam);
-
-		// Обработка только событий нажатия клавиш
-		if (nCode == HC_ACTION && wParam == WM_KEYDOWN) {
-			BYTE keyboardState[256];
-			GetKeyboardState(keyboardState);
-
-			// Получение символа с учётом текущей раскладки клавиатуры
-			WCHAR buffer[2];
-			int result = ToUnicode(p->vkCode, p->scanCode, keyboardState, buffer, 2, 0);
-
-			if (result == 1) { // Если получен один символ
-				if (buffer[0]) { // Проверяем, что символ печатный
-					input += buffer[0];
+				if (hWndEdit != hWndEditA && hWndEditA != hWndSuggestions) {
+					hWndEdit = hWndEditA; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 				}
+				SetForegroundWindow(hWndEdit);
+				Sleep(100); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
+				point = GetCaretPosition();
+				ClientToScreen(hWndEdit, &point);
 			}
-		
-			//if ((p->flags & LLKHF_INJECTED)  != 0) {
-				UpdateSuggestions(); // Обновляем подсказки
-			//}
-			// Дополнительная отладочная информация для отслеживания нажатий
-			//printf("Current input: %s\n", input.c_str());
 
+			//UpdateSuggestions(); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+			//%%C
+
+			///////////////////KBDLLHOOKSTRUCT* p = reinterpret_cast<KBDLLHOOKSTRUCT*>(lParam);
+
+			// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+			if (nCode == HC_ACTION && wParam == WM_KEYDOWN) {
+				BYTE keyboardState[256];
+				GetKeyboardState(keyboardState);
+
+				// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+				WCHAR buffer[2];
+				int result = ToUnicode(p->vkCode, p->scanCode, keyboardState, buffer, 2, 0);
+
+				if (result == 1) { // пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+					if (buffer[0]) { // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+						input += buffer[0];
+					}
+				}
+
+				//if ((p->flags & LLKHF_INJECTED)  != 0) {
+				UpdateSuggestions(); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+				//}
+				// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+				//printf("Current input: %s\n", input.c_str());
+
+				//////////////////////////////////////////////////////////////////////////
+			}
 		}
 	}
 
@@ -866,7 +863,7 @@ LRESULT CALLBACK MouseProc(int nCode, WPARAM wParam, LPARAM lParam)
 			//C KEYUP
 			inputs[0].ki.wVk = 86;
 			ret = SendInput(1, inputs, sizeof(INPUT));
-			//mouse_event(MOUSEEVENTF_ABSOLUTE | MOUSEEVENTF_LEFTUP, 0, 0, 0, 0); //отпустили
+			//mouse_event(MOUSEEVENTF_ABSOLUTE | MOUSEEVENTF_LEFTUP, 0, 0, 0, 0); //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
 			mRetFalse = true;
 			return 1;
@@ -992,7 +989,7 @@ BOOL ShowPopupMenu(HWND hWnd, HINSTANCE hInstance, WORD nResourceID)
 	return bOK;
 }
 
-// Обработчик сообщений для окна "Справка".
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ".
 INT_PTR CALLBACK Reference(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 {
 	UNREFERENCED_PARAMETER(lParam);
@@ -1027,15 +1024,15 @@ LRESULT CALLBACK WndProcA(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 	{
 	case WM_COMMAND:
 		wmId = LOWORD(wParam);
-		// Разобрать выбор в меню:
+		// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ:
 		switch (wmId)
 		{
 		case ID_MENU_Switching:
 			CaptureEnabled = !CaptureEnabled;
 			if (CaptureEnabled)
-				TrayMessageA(hWnd, NIM_MODIFY, 0, LoadIcon(hInst, MAKEINTRESOURCE(IDI_ICON1)), "Half keyboard\n(Захват включен)");
+				TrayMessage(hWnd, NIM_MODIFY, 0, LoadIcon(hInst, MAKEINTRESOURCE(IDI_ICON1)), "Half keyboard\n(пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ)");
 			else
-				TrayMessageA(hWnd, NIM_MODIFY, 0, LoadIcon(hInst, MAKEINTRESOURCE(IDI_ICON2)), "Half keyboard\n(Захват выключен)");
+				TrayMessage(hWnd, NIM_MODIFY, 0, LoadIcon(hInst, MAKEINTRESOURCE(IDI_ICON2)), "Half keyboard\n(пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ)");
 
 			break;
 		case ID_MENU_Reference:
@@ -1049,8 +1046,8 @@ LRESULT CALLBACK WndProcA(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 			DestroyWindow(hWndSuggestions);
 			UnhookWindowsHookEx;
 			UnhookWindowsHookEx;
-			MessageBox(0, "Закончили", "Всего хорошего!!!", 65536);//MsgBoxSetForeground
-			TrayMessageA(hWnd, NIM_DELETE, 0, 0, 0);
+			MessageBox(0, "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ", "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!!!", 65536);//MsgBoxSetForeground
+			TrayMessage(hWnd, NIM_DELETE, 0, 0, 0);
 			exit(0);
 			break;
 		default:
@@ -1062,7 +1059,7 @@ LRESULT CALLBACK WndProcA(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 		break;
 
 	case WM_LBUTTONDOWN: {
-		/*// Обработка кликов на тексте в окне подсказок
+		/*// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 		POINT pt;
 		GetCursorPos(&pt);
 		ScreenToClient(hWndSuggestions, &pt);
@@ -1097,7 +1094,7 @@ LRESULT CALLBACK WndProcA(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 	return 0;
 }
 
-// Функция для разделения строки по разделителю
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 vector<wstring> split(const wstring& str, const wstring& delimiter) {
 	vector<wstring> tokens;
 	size_t start = 0, end;
@@ -1112,7 +1109,7 @@ vector<wstring> split(const wstring& str, const wstring& delimiter) {
 LRESULT CALLBACK SuggestionsWndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam) {
 	switch (message) {
 	case WM_LBUTTONDOWN: {
-		// Обработка кликов на тексте в окне подсказок
+		// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 		POINT pt;
 		GetCursorPos(&pt);
 		ScreenToClient(hWndSuggestions, &pt);
@@ -1122,21 +1119,21 @@ LRESULT CALLBACK SuggestionsWndProc(HWND hWnd, UINT message, WPARAM wParam, LPAR
 
 		HDC hdc = GetDC(hWndSuggestions);
 		SIZE size;
-		int yOffset = 0;  // Смещение по вертикали для каждого элемента
+		int yOffset = 0;  // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 		//string matchedSuggestions;
 
 		for (const auto& suggestion : split(matchedSuggestions, L"\r\n")) {
-			// Получаем размер текущей строки
+			// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 			GetTextExtentPoint32W(hdc, suggestion.c_str(), suggestion.length(), &size);
 
-			// Проверяем, находится ли клик в границах текущего элемента
+			// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 			if (pt.y >= yOffset && pt.y < yOffset + size.cy) {
 				//MessageBox(hWnd, suggestion.c_str(), "Selected Suggestion", MB_OK);
 				InsertSelectedSuggestion(suggestion.c_str());
 				break;
 			}
 
-			// Увеличиваем смещение для следующего элемента
+			// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 			yOffset += size.cy;
 		}
 		//matchedSuggestions.clear();
@@ -1147,7 +1144,7 @@ LRESULT CALLBACK SuggestionsWndProc(HWND hWnd, UINT message, WPARAM wParam, LPAR
 		HDC hdc = (HDC)wParam;
 		RECT rect;
 		GetClientRect(hWnd, &rect);
-		FillRect(hdc, &rect, (HBRUSH)(COLOR_WINDOW + 1)); // Установка белого фона
+		FillRect(hdc, &rect, (HBRUSH)(COLOR_WINDOW + 1)); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
 		return 1;
 	}
 
@@ -1164,8 +1161,8 @@ LRESULT CALLBACK SuggestionsWndProc(HWND hWnd, UINT message, WPARAM wParam, LPAR
 	}
 	case WM_KEYDOWN:
 		/*
-		if (wParam == VK_RETURN) { // Нажатие Enter выбирает подсказку
-			InsertSelectedSuggestion(suggestions[selectedSuggestion]); // Вставка выбранного слова
+		if (wParam == VK_RETURN) { // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ Enter пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+			InsertSelectedSuggestion(suggestions[selectedSuggestion]); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
 			return 0;
 		}
 		OnKeyDown(wParam, hWndEdit);
@@ -1186,7 +1183,7 @@ LRESULT CALLBACK SuggestionsWndProc(HWND hWnd, UINT message, WPARAM wParam, LPAR
 LRESULT CALLBACK SuggestionsWndProcA(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam) {
 	switch (message) {
 	case WM_LBUTTONDOWN: {
-		// Обработка кликов на тексте в окне подсказок
+		// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 		POINT pt;
 		GetCursorPos(&pt);
 		ScreenToClient(hWndSuggestions, &pt);
@@ -1210,8 +1207,8 @@ LRESULT CALLBACK SuggestionsWndProcA(HWND hWnd, UINT message, WPARAM wParam, LPA
 		break;
 	}
 	case WM_KEYDOWN:
-		if (wParam == VK_RETURN) { // Нажатие Enter выбирает подсказку
-			//InsertSelectedSuggestion(L"example"); // Вставка выбранного слова
+		if (wParam == VK_RETURN) { // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ Enter пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+			//InsertSelectedSuggestion(L"example"); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
 			return 0;
 		}
 		OnKeyDown(wParam, hWndEdit);
@@ -1233,9 +1230,31 @@ int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 {
 	MSG messages;
 
+	/////////////////////////////////////////////////////////////////////////////////
+	wstring filename = L"suggestions.txt";
+	//wstring filename = L"C:\\Users\\38301\\source\\repos\\Half-keyboard2\\Debug\\suggestions.txt"; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
+	//wstring filename = L"D:\\suggestions.txt"; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
+
+	suggestions = {
+		L"пїЅпїЅпїЅпїЅпїЅпїЅ",
+		L"пїЅпїЅпїЅпїЅпїЅпїЅ",
+		L"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
+		L"пїЅпїЅпїЅпїЅ",
+		L"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ",
+		L"пїЅпїЅпїЅпїЅпїЅпїЅ"
+	};
+
+	// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ
+	//SaveSuggestions(suggestions, filename);
+
+	// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
+	suggestions = LoadSuggestions(filename);
+	/////////////////////////////////////////////////////////////////////////////////
+
+
 	if (isProcessRun("HalfKeyboard.exe"))
 	{
-		MessageBox(0, "HalfKeyboard.exe уже ЗАПУЩЕН", "Повторный запуск!", 0);
+		MessageBox(0, "HalfKeyboard.exe пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ!", 0);
 		return 1;
 	}
 
@@ -1244,24 +1263,25 @@ int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 
 	WNDCLASS wc;
 
-	wc.cbClsExtra = 0;                              //Дополнительные параметры класса
-	wc.cbWndExtra = 0;                              //Дополнительные параметры окна
-	wc.hbrBackground = (HBRUSH)(COLOR_WINDOW + 1);    //Цвет окна
-	wc.hCursor = LoadCursor(NULL, IDC_ARROW);       //Курсор
-	//wc.hIcon = LoadIcon(NULL, IDI_WINLOGO);         //Иконка
+	wc.cbClsExtra = 0;                              //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+	wc.cbWndExtra = 0;                              //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
+	wc.hbrBackground = (HBRUSH)(COLOR_WINDOW + 1);    //пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
+	wc.hCursor = LoadCursor(NULL, IDC_ARROW);       //пїЅпїЅпїЅпїЅпїЅпїЅ
+	//wc.hIcon = LoadIcon(NULL, IDI_WINLOGO);         //пїЅпїЅпїЅпїЅпїЅпїЅ
 	wc.hIcon = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_WINLOGO));
-	wc.hInstance = hInstance;//Дискриптор приложения
-	wc.lpfnWndProc = WndProcA;                       //Имя ф-ии обработки сообщений
-	wc.lpszClassName = "szWindowClass";               //Имя класса окна
-	wc.lpszMenuName = NULL;                         //Ссылка на главное меню
-	wc.style = CS_VREDRAW | CS_HREDRAW;             //Стиль окна
+	wc.hInstance = hInstance;//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+	wc.lpfnWndProc = WndProcA;                       //пїЅпїЅпїЅ пїЅ-пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+	wc.lpszClassName = "szWindowClass";               //пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
+	wc.lpszMenuName = NULL;                         //пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
+	wc.style = CS_VREDRAW | CS_HREDRAW;             //пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
 
 	if (!RegisterClass(&wc))
 	{
-		MessageBox(NULL, "Не удалось зарегистрировать класс окна!", "Ошибка регистрации", MB_ICONERROR | MB_OK);
+		MessageBox(NULL, "пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ!", "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ", MB_ICONERROR | MB_OK);
+		return 1;
 	}
 
-	// Зарегистрируйте класс окна подсказок
+	// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	WNDCLASS wcSuggestions = { };
 	wcSuggestions.lpfnWndProc = SuggestionsWndProc;
 	wcSuggestions.hInstance = hInstance;
@@ -1269,7 +1289,8 @@ int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 
 	if (!RegisterClass(&wcSuggestions))
 	{
-		MessageBox(NULL, "Не удалось зарегистрировать класс окна подсказок!", "Ошибка регистрации", MB_ICONERROR | MB_OK);
+		MessageBox(NULL, "пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!", "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ", MB_ICONERROR | MB_OK);
+		return 1;
 	};
 
 
@@ -1281,17 +1302,17 @@ int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 	if (!hWnd)
 		return 1;
 	/*
-	// Создаем окно для подсказок
+	// пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	hWndSuggestions = CreateWindowEx(
-		WS_EX_TOPMOST | WS_EX_TOOLWINDOW, // Стиль для подсказок поверх окна
-		"EDIT", // Класс окна (можно использовать класс для текстового поля)
-		"", // Текст по умолчанию
-		WS_CHILD | WS_BORDER | ES_MULTILINE | ES_READONLY, // Стиль окна
-		0, 0, 150, 100, // Начальное положение и размеры
-		hWnd, // Родительское окно
-		NULL, // Идентификатор меню
-		hInstance, // Дескриптор экземпляра приложения
-		NULL // Дополнительные параметры
+		WS_EX_TOPMOST | WS_EX_TOOLWINDOW, // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
+		"EDIT", // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ)
+		"", // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+		WS_CHILD | WS_BORDER | ES_MULTILINE | ES_READONLY, // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
+		0, 0, 150, 100, // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+		hWnd, // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
+		NULL, // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
+		hInstance, // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+		NULL // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	);
 	*/
 	InitializeSuggestionWindow(hInstance);
@@ -1301,8 +1322,8 @@ int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 
 	//ShowWindow(hWnd, nCmdShow);
 	ShowWindow(hWnd, SW_HIDE);
-	TrayMessageA(hWnd, NIM_ADD, 0, LoadIcon(hInst, MAKEINTRESOURCE(IDI_ICON1)), "Half keyboard\n(Захват включен)");
-	//TrayMessage(hWnd, NIM_ADD, 0, LoadIcon(hInstance, MAKEINTRESOURCE(IDI_ICON2)), "Half keyboard\n(Захват выключен)");	
+	TrayMessage(hWnd, NIM_ADD, 0, LoadIcon(hInst, MAKEINTRESOURCE(IDI_ICON1)), "Half keyboard\n(пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ)");
+	//TrayMessage(hWnd, NIM_ADD, 0, LoadIcon(hInstance, MAKEINTRESOURCE(IDI_ICON2)), "Half keyboard\n(пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ)");	
 
 	//////////////////////////////////////////////////////////////////////////////
 	//creating an array of matching keys
@@ -1421,22 +1442,7 @@ int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 		//
 
 	}
-	/////////////////////////////////////////////////////////////////////////////////
-	//wstring filename = L"suggestions.txt";
-	//wstring filename = L"C:\\Users\\38301\\source\\repos\\Half-keyboard2\\Debug\\suggestions.txt"; // Измените на ваш путь
-	wstring filename = L"D:\\suggestions.txt"; // Измените на ваш путь
-
-	suggestions = {
-		L"зайцев",
-		L"читать",
-		L"текстовый",
-		L"файл",
-		L"программы",
-		L"привет"
-	};
-	
-	/////////////////////////////////////////////////////////////////////////////////
-	MessageBox(0, "Начинаем", "Добро пожаловать!", 0);
+	MessageBox(0, "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ", "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!", 0);
 
 	hook = SetWindowsHookEx(WH_KEYBOARD_LL, keyboardHook, NULL, 0);
 	if (hook == NULL) {
@@ -1447,8 +1453,8 @@ int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 	/////
 
 	//	HWND hWnd = GetForegroundWindow();
-	/*На время использования Mause Button Controll v.2.20.5
-	* отключил, из-за конфликта
+	/*пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ Mause Button Controll v.2.20.5
+	* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ-пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	mousehook = SetWindowsHookEx(WH_MOUSE_LL, MouseProc, NULL, 0);
 	if (mousehook == NULL) {
 		printf("Error %d\n", GetLastError());
@@ -1457,16 +1463,7 @@ int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 	}
 	*/
 
-	// Сохранение вектора в файл
-	SaveSuggestions(suggestions, filename);
-
-	// Загрузка вектора из файла
-	vector<wstring> loadedSuggestions = LoadSuggestions(filename);
-
-	// Вывод загруженных предложений
-	for (const auto& suggestion : loadedSuggestions) {
-		wprintf(L"%ls\n", suggestion.c_str());
-	}
+	
 
 
 	//printf("Waiting for messages ...\n");
@@ -1474,5 +1471,7 @@ int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 		TranslateMessage(&messages);
 		DispatchMessage(&messages);
 	}
+
+	return 0;
 
 }

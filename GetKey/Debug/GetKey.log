@@ -1,13 +1,12 @@
 ﻿D:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (GetKey.vcxproj, Half keyboard.vcxproj).  Это может привести к ошибкам очистки и перестроения.
   main.cpp
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(462,15): warning C4244: =: преобразование "DWORD" в "char", возможна потеря данных
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(609,4): warning C4551: в вызове функции отсутствует список аргументов
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(610,4): warning C4551: в вызове функции отсутствует список аргументов
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(719,27): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(725,26): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(439,8): warning C4101: newVkCode: неиспользованная локальная переменная
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1050,4): warning C4551: в вызове функции отсутствует список аргументов
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1051,4): warning C4551: в вызове функции отсутствует список аргументов
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1252,33): warning C4302: приведение типов: усечение из "LPSTR" к "WORD"
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1478,1): warning C4715: WinMain: значение возвращается не при всех путях выполнения
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(466,15): warning C4244: =: преобразование "DWORD" в "char", возможна потеря данных
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(611,4): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(612,4): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(717,27): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(723,26): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(443,8): warning C4101: newVkCode: неиспользованная локальная переменная
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1047,4): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1048,4): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1271,33): warning C4302: приведение типов: усечение из "LPSTR" к "WORD"
   GetKey.vcxproj -> C:\Users\38301\source\repos\Half-keyboard2\Debug\HalfKeyboard.exe

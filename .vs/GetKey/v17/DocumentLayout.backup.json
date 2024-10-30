@@ -27,7 +27,8 @@
               "ToolTip": "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppBuild.targets",
               "ViewState": "AgIAAAoCAAAAAAAAAIAwwBICAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-10-29T12:13:06.491Z"
+              "WhenOpened": "2024-10-29T12:13:06.491Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -35,9 +36,9 @@
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\38301\\source\\repos\\Half-keyboard2\\GetKey\\main.cpp",
               "RelativeDocumentMoniker": "GetKey\\main.cpp",
-              "ToolTip": "C:\\Users\\38301\\source\\repos\\Half-keyboard2\\GetKey\\main.cpp*",
-              "RelativeToolTip": "GetKey\\main.cpp*",
-              "ViewState": "AgIAAKsFAAAAAAAAAAAUwL0FAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\38301\\source\\repos\\Half-keyboard2\\GetKey\\main.cpp",
+              "RelativeToolTip": "GetKey\\main.cpp",
+              "ViewState": "AgIAABMFAAAAAAAAAAAQwBsFAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-26T14:55:13.164Z",
               "EditorCaption": ""
