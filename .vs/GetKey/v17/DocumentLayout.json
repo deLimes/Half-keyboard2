@@ -5,6 +5,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{85A6D80F-9116-4712-BB50-97E9CFEA6FCF}|GetKey\\GetKey.vcxproj|C:\\Users\\38301\\source\\repos\\Half-keyboard2\\GetKey\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{85A6D80F-9116-4712-BB50-97E9CFEA6FCF}|GetKey\\GetKey.vcxproj|solutionrelative:GetKey\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85A6D80F-9116-4712-BB50-97E9CFEA6FCF}|GetKey\\GetKey.vcxproj|D:\\WINDOWS KITS\\10\\INCLUDE\\10.0.22621.0\\UM\\WINUSER.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +17,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WinUser.h",
+              "DocumentMoniker": "D:\\Windows Kits\\10\\Include\\10.0.22621.0\\um\\WinUser.h",
+              "ToolTip": "D:\\Windows Kits\\10\\Include\\10.0.22621.0\\um\\WinUser.h",
+              "ViewState": "AgIAANkBAAAAAAAAAAAEwN0BAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-31T11:19:13.23Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +38,7 @@
               "RelativeDocumentMoniker": "GetKey\\main.cpp",
               "ToolTip": "C:\\Users\\38301\\source\\repos\\Half-keyboard2\\GetKey\\main.cpp",
               "RelativeToolTip": "GetKey\\main.cpp",
-              "ViewState": "AgIAAD4GAAAAAAAAAAAuwOkAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAHkDAAAAAAAAAAAUwH8DAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-26T14:55:13.164Z",
               "EditorCaption": ""
