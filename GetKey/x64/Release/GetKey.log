@@ -1,0 +1,24 @@
+﻿  main.cpp
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(759,15): warning C4244: =: преобразование "DWORD" в "char", возможна потеря данных
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(956,4): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(957,4): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1081,27): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1086,26): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(736,8): warning C4101: newVkCode: неиспользованная локальная переменная
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1393,9): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "WPARAM"
+      C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1393,9):
+      рекомендуется использовать "%lld" в строке форматирования
+      C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1393,9):
+      рекомендуется использовать "%Id" в строке форматирования
+      C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1393,9):
+      рекомендуется использовать "%I64d" в строке форматирования
+  
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1574,4): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1575,4): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1642,68): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1794,33): warning C4302: приведение типов: усечение из "LPWSTR" к "WORD"
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+  All 658 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  GetKey.vcxproj -> C:\Users\38301\source\repos\Half-keyboard2\x64\Release\HalfKeyboard.exe
