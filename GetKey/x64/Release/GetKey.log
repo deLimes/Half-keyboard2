@@ -1,6 +1,57 @@
-﻿  Создание кода
-  1 of 973 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+﻿  main.cpp
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(966,15): warning C4244: =: преобразование "DWORD" в "char", возможна потеря данных
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1365,27): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1370,26): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(942,8): warning C4101: newVkCode: неиспользованная локальная переменная
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1707,9): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "WPARAM"
+      C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1707,9):
+      рекомендуется использовать "%lld" в строке форматирования
+      C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1707,9):
+      рекомендуется использовать "%Id" в строке форматирования
+      C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1707,9):
+      рекомендуется использовать "%I64d" в строке форматирования
+  
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1961,68): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2116,33): warning C4302: приведение типов: усечение из "LPWSTR" к "WORD"
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2362,2): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2363,2): warning C4551: в вызове функции отсутствует список аргументов
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(4689,18): warning C4244: =: преобразование "const wchar_t" в "char", возможна потеря данных
+  (компиляция исходного файла "main.cpp")
+      D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(4689,18):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(128,15):
+          выполняется компиляция ссылки на экземпляр шаблон функции "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)"
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_const_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+              C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(128,2):
+              см. первую ссылку на "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string" в "wstring_to_string"
+          D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(793,17):
+          выполняется компиляция ссылки на экземпляр шаблон функции "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<const wchar_t*,const wchar_t*,_Size_type>(_Iter,const _Sent,_Size)"
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=const wchar_t *,
+              _Sent=const wchar_t *,
+              _Size=unsigned __int64
+          ]
+          D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(949,18):
+          выполняется компиляция ссылки на экземпляр шаблон функции "_OutIt *std::_Copy_n_unchecked4<const wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)"
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned __int64,
+              _InIt=const wchar_t *,
+              _SizeTy=unsigned __int64
+          ]
+  
+  Создание кода
+  31 of 1650 functions ( 1.9%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+    48 functions had inline decision re-evaluated but remain unchanged
   Создание кода завершено
   GetKey.vcxproj -> C:\Users\38301\source\repos\Half-keyboard2\x64\Release\HalfKeyboard.exe
