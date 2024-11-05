@@ -8,6 +8,6 @@
 #define ID_MENU_About             32773
 #define ID_MENU_EXIT              32774
 #define WM_UPDATE_SUGGESTIONS     32775
-#define WM_LOAD_SUGGESTIONS     32776
+#define WM_LOAD_SUGGESTIONS       32776
 #define WM_WRITE_LOG              32777
 #define IDC_STATIC				-1
