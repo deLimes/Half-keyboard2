@@ -1,0 +1,315 @@
+[2024-11-07 13:36:56] Key 71 is pressed.
+
+[2024-11-07 13:36:56] keyboardState[VK_CODE]: 0
+
+[2024-11-07 13:36:56] Calling ToUnicodeEx with vkCode: 71
+
+[2024-11-07 13:36:56] ToUnicodeEx result: 1, buffer[0]: ï
+
+[2024-11-07 13:36:58] Key 162 is pressed.
+
+[2024-11-07 13:36:59] keyboardState[VK_CODE]: 0
+
+[2024-11-07 13:36:59] Calling ToUnicodeEx with vkCode: 162
+
+[2024-11-07 13:36:59] ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 13:36:59] Key 231 is pressed.
+
+[2024-11-07 13:36:59] keyboardState[VK_CODE]: 0
+
+[2024-11-07 13:36:59] Calling ToUnicodeEx with vkCode: 231
+
+[2024-11-07 13:36:59] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 13:36:59] Key 231 is pressed.
+
+[2024-11-07 13:36:59] keyboardState[VK_CODE]: 0
+
+[2024-11-07 13:37:00] Calling ToUnicodeEx with vkCode: 231
+
+[2024-11-07 13:37:00] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 13:37:02] Key 162 is pressed.
+
+[2024-11-07 13:37:03] keyboardState[VK_CODE]: 0
+
+[2024-11-07 13:37:03] Calling ToUnicodeEx with vkCode: 162
+
+[2024-11-07 13:37:03] ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 13:37:03] Key 231 is pressed.
+
+[2024-11-07 13:37:03] keyboardState[VK_CODE]: 0
+
+[2024-11-07 13:37:03] Calling ToUnicodeEx with vkCode: 231
+
+[2024-11-07 13:37:03] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 13:37:03] Key 231 is pressed.
+
+[2024-11-07 13:37:03] keyboardState[VK_CODE]: 0
+
+[2024-11-07 13:37:04] Calling ToUnicodeEx with vkCode: 231
+
+[2024-11-07 13:37:04] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 13:37:08] Key 8 is pressed.
+
+[2024-11-07 13:37:09] keyboardState[VK_CODE]: 0
+
+[2024-11-07 13:37:09] Calling ToUnicodeEx with vkCode: 8
+
+[2024-11-07 13:37:09] ToUnicodeEx result: 1, buffer[0]: 
+
+[2024-11-07 13:37:15] Key 190 is pressed.
+
+[2024-11-07 13:37:15] keyboardState[VK_CODE]: 0
+
+[2024-11-07 13:37:15] Calling ToUnicodeEx with vkCode: 190
+
+[2024-11-07 13:37:15] ToUnicodeEx result: 1, buffer[0]: þ
+
+[2024-11-07 13:37:20] Key 72 is not pressed.
+
+[2024-11-07 13:37:21] keyboardState[VK_CODE]: 0
+
+[2024-11-07 13:37:21] Calling ToUnicodeEx with vkCode: 72
+
+[2024-11-07 13:37:21] ToUnicodeEx result: 1, buffer[0]: ð
+
+[2024-11-07 13:37:24] Key 73 is not pressed.
+
+[2024-11-07 13:37:24] keyboardState[VK_CODE]: 0
+
+[2024-11-07 13:37:24] Calling ToUnicodeEx with vkCode: 73
+
+[2024-11-07 13:37:25] ToUnicodeEx result: 1, buffer[0]: ø
+
+[2024-11-07 13:37:26] Key 8 is pressed.
+
+[2024-11-07 13:37:26] keyboardState[VK_CODE]: 0
+
+[2024-11-07 13:37:26] Calling ToUnicodeEx with vkCode: 8
+
+[2024-11-07 13:37:26] ToUnicodeEx result: 1, buffer[0]: 
+
+[2024-11-07 13:37:26] Key 8 is pressed.
+
+[2024-11-07 13:37:26] keyboardState[VK_CODE]: 0
+
+[2024-11-07 13:37:27] Calling ToUnicodeEx with vkCode: 8
+
+[2024-11-07 13:37:27] ToUnicodeEx result: 1, buffer[0]: 
+
+[2024-11-07 13:37:27] Key 71 is pressed.
+
+[2024-11-07 13:37:27] keyboardState[VK_CODE]: 0
+
+[2024-11-07 13:37:27] Calling ToUnicodeEx with vkCode: 71
+
+[2024-11-07 13:37:27] ToUnicodeEx result: 1, buffer[0]: ï
+
+[2024-11-07 13:38:22] Key 231 is pressed.
+
+[2024-11-07 13:38:23] keyboardState[VK_CODE]: 128
+
+[2024-11-07 13:38:23] Calling ToUnicodeEx with vkCode: 231
+
+[2024-11-07 13:38:23] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 13:38:23] Key 231 is pressed.
+
+[2024-11-07 13:38:23] keyboardState[VK_CODE]: 128
+
+[2024-11-07 13:38:23] Calling ToUnicodeEx with vkCode: 231
+
+[2024-11-07 13:38:23] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 13:38:42] Key 161 is pressed.
+
+[2024-11-07 13:38:42] keyboardState[VK_CODE]: 129
+
+[2024-11-07 13:38:42] Calling ToUnicodeEx with vkCode: 161
+
+[2024-11-07 13:38:42] ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 13:38:43] Key 161 is pressed.
+
+[2024-11-07 13:38:43] keyboardState[VK_CODE]: 1
+
+[2024-11-07 13:38:43] Calling ToUnicodeEx with vkCode: 161
+
+[2024-11-07 13:38:43] ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 13:38:43] Key 72 is not pressed.
+
+[2024-11-07 13:38:43] keyboardState[VK_CODE]: 0
+
+[2024-11-07 13:38:43] Calling ToUnicodeEx with vkCode: 72
+
+[2024-11-07 13:38:43] ToUnicodeEx result: 1, buffer[0]: ð
+
+[2024-11-07 13:38:50] Key 162 is pressed.
+
+[2024-11-07 13:38:50] keyboardState[VK_CODE]: 0
+
+[2024-11-07 13:38:50] Calling ToUnicodeEx with vkCode: 162
+
+[2024-11-07 13:38:50] ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 13:38:51] Key 231 is pressed.
+
+[2024-11-07 13:38:51] keyboardState[VK_CODE]: 128
+
+[2024-11-07 13:38:51] Calling ToUnicodeEx with vkCode: 231
+
+[2024-11-07 13:38:51] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 13:38:51] Key 231 is pressed.
+
+[2024-11-07 13:38:51] keyboardState[VK_CODE]: 128
+
+[2024-11-07 13:38:51] Calling ToUnicodeEx with vkCode: 231
+
+[2024-11-07 13:38:51] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 13:38:51] Key 231 is pressed.
+
+[2024-11-07 13:38:52] keyboardState[VK_CODE]: 128
+
+[2024-11-07 13:38:52] Calling ToUnicodeEx with vkCode: 231
+
+[2024-11-07 13:38:52] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 13:38:52] Key 231 is pressed.
+
+[2024-11-07 13:38:52] keyboardState[VK_CODE]: 128
+
+[2024-11-07 13:38:52] Calling ToUnicodeEx with vkCode: 231
+
+[2024-11-07 13:38:52] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 13:39:07] Key 8 is pressed.
+
+[2024-11-07 13:39:07] keyboardState[VK_CODE]: 1
+
+[2024-11-07 13:39:07] Calling ToUnicodeEx with vkCode: 8
+
+[2024-11-07 13:39:07] ToUnicodeEx result: 1, buffer[0]: 
+
+[2024-11-07 13:39:08] Key 76 is pressed.
+
+[2024-11-07 13:39:08] keyboardState[VK_CODE]: 0
+
+[2024-11-07 13:39:08] Calling ToUnicodeEx with vkCode: 76
+
+[2024-11-07 13:39:08] ToUnicodeEx result: 1, buffer[0]: ä
+
+[2024-11-07 13:39:14] Key 161 is pressed.
+
+[2024-11-07 13:39:14] keyboardState[VK_CODE]: 1
+
+[2024-11-07 13:39:14] Calling ToUnicodeEx with vkCode: 161
+
+[2024-11-07 13:39:15] ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 13:39:15] Key 161 is pressed.
+
+[2024-11-07 13:39:15] keyboardState[VK_CODE]: 1
+
+[2024-11-07 13:39:15] Calling ToUnicodeEx with vkCode: 161
+
+[2024-11-07 13:39:15] ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 13:39:15] Key 72 is not pressed.
+
+[2024-11-07 13:39:15] keyboardState[VK_CODE]: 0
+
+[2024-11-07 13:39:15] Calling ToUnicodeEx with vkCode: 72
+
+[2024-11-07 13:39:16] ToUnicodeEx result: 1, buffer[0]: ð
+
+[2024-11-07 13:39:20] Key 8 is pressed.
+
+[2024-11-07 13:39:20] keyboardState[VK_CODE]: 1
+
+[2024-11-07 13:39:20] Calling ToUnicodeEx with vkCode: 8
+
+[2024-11-07 13:39:20] ToUnicodeEx result: 1, buffer[0]: 
+
+[2024-11-07 13:39:21] Key 161 is pressed.
+
+[2024-11-07 13:39:21] keyboardState[VK_CODE]: 1
+
+[2024-11-07 13:39:21] Calling ToUnicodeEx with vkCode: 161
+
+[2024-11-07 13:39:22] ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 13:39:22] Key 161 is pressed.
+
+[2024-11-07 13:39:22] keyboardState[VK_CODE]: 1
+
+[2024-11-07 13:39:22] Calling ToUnicodeEx with vkCode: 161
+
+[2024-11-07 13:39:22] ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 13:39:22] Key 72 is not pressed.
+
+[2024-11-07 13:39:22] keyboardState[VK_CODE]: 0
+
+[2024-11-07 13:39:22] Calling ToUnicodeEx with vkCode: 72
+
+[2024-11-07 13:39:22] ToUnicodeEx result: 1, buffer[0]: ð
+
+[2024-11-07 13:39:24] Key 8 is pressed.
+
+[2024-11-07 13:39:24] keyboardState[VK_CODE]: 1
+
+[2024-11-07 13:39:25] Calling ToUnicodeEx with vkCode: 8
+
+[2024-11-07 13:39:25] ToUnicodeEx result: 1, buffer[0]: 
+
+[2024-11-07 13:39:26] Key 8 is pressed.
+
+[2024-11-07 13:39:26] keyboardState[VK_CODE]: 1
+
+[2024-11-07 13:39:26] Calling ToUnicodeEx with vkCode: 8
+
+[2024-11-07 13:39:26] ToUnicodeEx result: 1, buffer[0]: 
+
+[2024-11-07 13:39:26] Key 8 is pressed.
+
+[2024-11-07 13:39:27] keyboardState[VK_CODE]: 1
+
+[2024-11-07 13:39:27] Calling ToUnicodeEx with vkCode: 8
+
+[2024-11-07 13:39:27] ToUnicodeEx result: 1, buffer[0]: 
+
+[2024-11-07 13:39:27] Key 8 is pressed.
+
+[2024-11-07 13:39:27] keyboardState[VK_CODE]: 1
+
+[2024-11-07 13:39:27] Calling ToUnicodeEx with vkCode: 8
+
+[2024-11-07 13:39:27] ToUnicodeEx result: 1, buffer[0]: 
+
+[2024-11-07 13:39:27] Key 8 is pressed.
+
+[2024-11-07 13:39:28] keyboardState[VK_CODE]: 1
+
+[2024-11-07 13:39:28] Calling ToUnicodeEx with vkCode: 8
+
+[2024-11-07 13:39:28] ToUnicodeEx result: 1, buffer[0]: 
+
+[2024-11-07 13:39:28] Key 8 is pressed.
+
+[2024-11-07 13:39:28] keyboardState[VK_CODE]: 1
+
+[2024-11-07 13:39:29] Calling ToUnicodeEx with vkCode: 8
+
+[2024-11-07 13:39:29] ToUnicodeEx result: 1, buffer[0]: 
+
+[2024-11-07 13:39:29] Key 8 is pressed.
+
+[2024-11-07 13:39:29] keyboardState[VK_CODE]: 1
+
+[2024-11-07 13:39:29] Calling ToUnicodeEx with vkCode: 8
+
+[2024-11-07 13:39:29] ToUnicodeEx result: 1, buffer[0]: 
+
+[2024-11-07 13:39:46] Key 45 is pressed.
+
+[2024-11-07 13:39:47] keyboardState[VK_CODE]: 0
+
+[2024-11-07 13:39:47] Calling ToUnicodeEx with vkCode: 45
+
+[2024-11-07 13:39:47] ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 13:39:47] Key 161 is pressed.
+
+[2024-11-07 13:39:47] keyboardState[VK_CODE]: 1
+
+[2024-11-07 13:39:47] Calling ToUnicodeEx with vkCode: 161
+
+[2024-11-07 13:39:47] ToUnicodeEx result: 0, buffer[0]: 

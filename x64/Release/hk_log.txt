@@ -1,0 +1,1345 @@
+[2024-11-07 17:20:17] GetCharFromVkCodeA Key 92 is not pressed.
+[2024-11-07 17:20:17] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:17] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 92
+[2024-11-07 17:20:17] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 92
+[2024-11-07 17:20:18] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:18] GetCharFromVkCodeA ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 17:20:18] GetCharFromVkCodeA Key 162 is not pressed.
+[2024-11-07 17:20:18] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:18] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 162
+[2024-11-07 17:20:18] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 541
+[2024-11-07 17:20:18] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:18] GetCharFromVkCodeA ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 17:20:18] GetCharFromVkCodeA Key 92 is not pressed.
+[2024-11-07 17:20:19] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:19] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 92
+[2024-11-07 17:20:19] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 92
+[2024-11-07 17:20:19] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:19] GetCharFromVkCodeA ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 17:20:19] GetCharFromVkCodeA Key 92 is not pressed.
+[2024-11-07 17:20:19] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:19] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 92
+[2024-11-07 17:20:19] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 92
+[2024-11-07 17:20:20] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:20] GetCharFromVkCodeA ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 17:20:20] GetCharFromVkCodeA Key 92 is not pressed.
+[2024-11-07 17:20:20] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:20] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 92
+[2024-11-07 17:20:20] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 92
+[2024-11-07 17:20:20] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:20] GetCharFromVkCodeA ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 17:20:20] GetCharFromVkCodeA Key 92 is not pressed.
+[2024-11-07 17:20:21] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:21] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 92
+[2024-11-07 17:20:21] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 92
+[2024-11-07 17:20:21] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:21] GetCharFromVkCodeA ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 17:20:21] GetCharFromVkCodeA Key 162 is not pressed.
+[2024-11-07 17:20:21] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:21] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 162
+[2024-11-07 17:20:21] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 541
+[2024-11-07 17:20:22] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:22] GetCharFromVkCodeA ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 17:20:22] GetCharFromVkCodeA Key 92 is not pressed.
+[2024-11-07 17:20:22] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:22] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 92
+[2024-11-07 17:20:22] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 92
+[2024-11-07 17:20:22] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:22] GetCharFromVkCodeA ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 17:20:22] GetCharFromVkCodeA Key 92 is not pressed.
+[2024-11-07 17:20:23] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:23] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 92
+[2024-11-07 17:20:23] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 92
+[2024-11-07 17:20:23] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:23] GetCharFromVkCodeA ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 17:20:23] GetCharFromVkCodeA Key 92 is not pressed.
+[2024-11-07 17:20:23] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:23] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 92
+[2024-11-07 17:20:23] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 92
+[2024-11-07 17:20:24] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:24] GetCharFromVkCodeA ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 17:20:24] GetCharFromVkCodeA Key 162 is not pressed.
+[2024-11-07 17:20:24] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:24] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 162
+[2024-11-07 17:20:24] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 541
+[2024-11-07 17:20:24] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:24] GetCharFromVkCodeA ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 17:20:25] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:20:25] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:25] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:20:25] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 57
+[2024-11-07 17:20:25] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2:  
+[2024-11-07 17:20:25] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:20:25] GetCharFromVkCodeA Key 72 is not pressed.
+[2024-11-07 17:20:25] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:26] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:20:26] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 35
+[2024-11-07 17:20:26] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: ð
+[2024-11-07 17:20:26] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:20:26] GetCharFromVkCodeA Key 71 is pressed.
+[2024-11-07 17:20:26] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:26] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 71
+[2024-11-07 17:20:26] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 0
+[2024-11-07 17:20:26] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:27] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ï
+[2024-11-07 17:20:27] Key 71 is pressed.
+[2024-11-07 17:20:27] keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:27] Calling ToUnicodeEx with vkCode: 71
+[2024-11-07 17:20:27] ToUnicodeEx result: 1, buffer[0]: ï
+[2024-11-07 17:20:27] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:20:27] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:27] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:20:27] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 57
+[2024-11-07 17:20:27] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2:  
+[2024-11-07 17:20:28] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:20:28] GetCharFromVkCodeA Key 72 is not pressed.
+[2024-11-07 17:20:28] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:28] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:20:28] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 35
+[2024-11-07 17:20:28] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: ð
+[2024-11-07 17:20:28] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:20:28] GetCharFromVkCodeA Key 72 is not pressed.
+[2024-11-07 17:20:28] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:29] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:20:29] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 0
+[2024-11-07 17:20:29] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:29] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:20:29] GetCharFromVkCodeA Key 72 is not pressed.
+[2024-11-07 17:20:29] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:29] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:20:29] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 35
+[2024-11-07 17:20:29] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: ð
+[2024-11-07 17:20:30] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:20:30] GetCharFromVkCodeA Key 72 is not pressed.
+[2024-11-07 17:20:30] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:30] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:20:30] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 0
+[2024-11-07 17:20:30] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:30] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:20:30] Key 72 is not pressed.
+[2024-11-07 17:20:30] keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:31] Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:20:31] ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:20:31] GetCharFromVkCodeA Key 72 is pressed.
+[2024-11-07 17:20:31] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:31] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:20:31] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 35
+[2024-11-07 17:20:31] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: ð
+[2024-11-07 17:20:31] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:20:31] GetCharFromVkCodeA Key 72 is pressed.
+[2024-11-07 17:20:32] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:32] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:20:32] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 0
+[2024-11-07 17:20:32] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:32] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:20:32] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:20:32] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:32] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:20:32] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 57
+[2024-11-07 17:20:32] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2:  
+[2024-11-07 17:20:33] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:20:33] GetCharFromVkCodeA Key 78 is not pressed.
+[2024-11-07 17:20:33] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:33] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 78
+[2024-11-07 17:20:33] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 49
+[2024-11-07 17:20:33] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: ò
+[2024-11-07 17:20:33] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ò
+[2024-11-07 17:20:33] GetCharFromVkCodeA Key 66 is not pressed.
+[2024-11-07 17:20:33] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:34] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 66
+[2024-11-07 17:20:34] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 0
+[2024-11-07 17:20:34] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:34] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: è
+[2024-11-07 17:20:34] Key 66 is not pressed.
+[2024-11-07 17:20:34] keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:34] Calling ToUnicodeEx with vkCode: 66
+[2024-11-07 17:20:34] ToUnicodeEx result: 1, buffer[0]: è
+[2024-11-07 17:20:34] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:20:35] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:35] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:20:35] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 57
+[2024-11-07 17:20:35] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2:  
+[2024-11-07 17:20:35] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:20:35] GetCharFromVkCodeA Key 78 is not pressed.
+[2024-11-07 17:20:35] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:35] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 78
+[2024-11-07 17:20:35] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 49
+[2024-11-07 17:20:36] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: ò
+[2024-11-07 17:20:36] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ò
+[2024-11-07 17:20:36] GetCharFromVkCodeA Key 78 is not pressed.
+[2024-11-07 17:20:36] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:36] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 78
+[2024-11-07 17:20:36] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 0
+[2024-11-07 17:20:36] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:36] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ò
+[2024-11-07 17:20:36] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:20:37] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:37] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:20:37] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 57
+[2024-11-07 17:20:37] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2:  
+[2024-11-07 17:20:37] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:20:37] GetCharFromVkCodeA Key 75 is not pressed.
+[2024-11-07 17:20:37] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:37] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 75
+[2024-11-07 17:20:37] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 37
+[2024-11-07 17:20:37] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: ë
+[2024-11-07 17:20:38] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ë
+[2024-11-07 17:20:38] GetCharFromVkCodeA Key 68 is not pressed.
+[2024-11-07 17:20:38] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:38] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 68
+[2024-11-07 17:20:38] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 0
+[2024-11-07 17:20:38] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:38] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: â
+[2024-11-07 17:20:38] Key 68 is not pressed.
+[2024-11-07 17:20:38] keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:39] Calling ToUnicodeEx with vkCode: 68
+[2024-11-07 17:20:39] ToUnicodeEx result: 1, buffer[0]: â
+[2024-11-07 17:20:39] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:20:39] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:39] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:20:39] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 57
+[2024-11-07 17:20:39] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2:  
+[2024-11-07 17:20:39] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:20:39] GetCharFromVkCodeA Key 75 is not pressed.
+[2024-11-07 17:20:40] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:40] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 75
+[2024-11-07 17:20:40] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 37
+[2024-11-07 17:20:40] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: ë
+[2024-11-07 17:20:40] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ë
+[2024-11-07 17:20:40] GetCharFromVkCodeA Key 75 is not pressed.
+[2024-11-07 17:20:40] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:40] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 75
+[2024-11-07 17:20:40] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 0
+[2024-11-07 17:20:41] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:41] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ë
+[2024-11-07 17:20:41] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:20:41] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:41] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:20:41] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 57
+[2024-11-07 17:20:41] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2:  
+[2024-11-07 17:20:41] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:20:41] GetCharFromVkCodeA Key 89 is not pressed.
+[2024-11-07 17:20:41] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:42] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 89
+[2024-11-07 17:20:42] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 21
+[2024-11-07 17:20:42] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: í
+[2024-11-07 17:20:42] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: í
+[2024-11-07 17:20:43] GetCharFromVkCodeA Key 84 is not pressed.
+[2024-11-07 17:20:43] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:43] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 84
+[2024-11-07 17:20:43] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 0
+[2024-11-07 17:20:43] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:43] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: å
+[2024-11-07 17:20:43] Key 84 is not pressed.
+[2024-11-07 17:20:43] keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:43] Calling ToUnicodeEx with vkCode: 84
+[2024-11-07 17:20:44] ToUnicodeEx result: 1, buffer[0]: å
+[2024-11-07 17:20:44] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:20:44] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:44] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:20:44] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 57
+[2024-11-07 17:20:44] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2:  
+[2024-11-07 17:20:44] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:20:44] GetCharFromVkCodeA Key 89 is not pressed.
+[2024-11-07 17:20:44] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:45] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 89
+[2024-11-07 17:20:45] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 21
+[2024-11-07 17:20:45] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: í
+[2024-11-07 17:20:45] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: í
+[2024-11-07 17:20:45] GetCharFromVkCodeA Key 89 is not pressed.
+[2024-11-07 17:20:45] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:45] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 89
+[2024-11-07 17:20:45] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 0
+[2024-11-07 17:20:45] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:45] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: í
+[2024-11-07 17:20:46] GetCharFromVkCodeA Key 78 is not pressed.
+[2024-11-07 17:20:46] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:46] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 78
+[2024-11-07 17:20:46] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 49
+[2024-11-07 17:20:46] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: ò
+[2024-11-07 17:20:46] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ò
+[2024-11-07 17:20:46] GetCharFromVkCodeA Key 78 is not pressed.
+[2024-11-07 17:20:46] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:46] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 78
+[2024-11-07 17:20:47] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 0
+[2024-11-07 17:20:47] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:47] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ò
+[2024-11-07 17:20:47] Key 78 is not pressed.
+[2024-11-07 17:20:47] keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:47] Calling ToUnicodeEx with vkCode: 78
+[2024-11-07 17:20:47] ToUnicodeEx result: 1, buffer[0]: ò
+[2024-11-07 17:20:47] GetCharFromVkCodeA Key 78 is pressed.
+[2024-11-07 17:20:47] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:48] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 78
+[2024-11-07 17:20:48] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 49
+[2024-11-07 17:20:48] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: ò
+[2024-11-07 17:20:48] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ò
+[2024-11-07 17:20:48] GetCharFromVkCodeA Key 78 is pressed.
+[2024-11-07 17:20:48] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:48] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 78
+[2024-11-07 17:20:48] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 0
+[2024-11-07 17:20:48] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:49] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ò
+[2024-11-07 17:20:49] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:20:49] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:49] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:20:49] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 57
+[2024-11-07 17:20:49] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2:  
+[2024-11-07 17:20:49] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:20:49] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:20:49] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:49] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:20:50] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 57
+[2024-11-07 17:20:50] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2:  
+[2024-11-07 17:20:50] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:20:50] GetCharFromVkCodeA Key 231 is pressed.
+[2024-11-07 17:20:50] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:50] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:20:50] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 32
+[2024-11-07 17:20:50] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: â
+[2024-11-07 17:20:50] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:20:51] Key 231 is pressed.
+[2024-11-07 17:20:51] keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:51] Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:20:51] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:20:51] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:20:51] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:51] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:20:51] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 57
+[2024-11-07 17:20:51] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2:  
+[2024-11-07 17:20:52] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:20:52] GetCharFromVkCodeA Key 72 is not pressed.
+[2024-11-07 17:20:52] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:52] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:20:52] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 35
+[2024-11-07 17:20:52] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: ð
+[2024-11-07 17:20:52] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:20:52] GetCharFromVkCodeA Key 71 is pressed.
+[2024-11-07 17:20:52] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:53] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 71
+[2024-11-07 17:20:53] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 0
+[2024-11-07 17:20:53] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:53] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ï
+[2024-11-07 17:20:53] Key 71 is pressed.
+[2024-11-07 17:20:53] keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:53] Calling ToUnicodeEx with vkCode: 71
+[2024-11-07 17:20:53] ToUnicodeEx result: 1, buffer[0]: ï
+[2024-11-07 17:20:53] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:20:54] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:54] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:20:54] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 57
+[2024-11-07 17:20:54] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2:  
+[2024-11-07 17:20:54] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:20:54] GetCharFromVkCodeA Key 72 is not pressed.
+[2024-11-07 17:20:54] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:54] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:20:54] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 35
+[2024-11-07 17:20:54] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: ð
+[2024-11-07 17:20:55] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:20:55] GetCharFromVkCodeA Key 72 is not pressed.
+[2024-11-07 17:20:55] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:55] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:20:55] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 0
+[2024-11-07 17:20:55] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:55] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:20:55] GetCharFromVkCodeA Key 162 is not pressed.
+[2024-11-07 17:20:55] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:56] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 162
+[2024-11-07 17:20:56] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 541
+[2024-11-07 17:20:56] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:56] GetCharFromVkCodeA ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 17:20:56] GetCharFromVkCodeA Key 165 is not pressed.
+[2024-11-07 17:20:56] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:56] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 165
+[2024-11-07 17:20:56] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 56
+[2024-11-07 17:20:56] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:57] GetCharFromVkCodeA ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 17:20:57] GetCharFromVkCodeA Key 162 is pressed.
+[2024-11-07 17:20:57] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:57] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 162
+[2024-11-07 17:20:57] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 541
+[2024-11-07 17:20:57] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:57] GetCharFromVkCodeA ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 17:20:57] GetCharFromVkCodeA Key 165 is not pressed.
+[2024-11-07 17:20:57] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:58] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 165
+[2024-11-07 17:20:58] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 56
+[2024-11-07 17:20:58] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:58] GetCharFromVkCodeA ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 17:20:58] **************************************
+[2024-11-07 17:20:58] GetCharFromVkCodeA Key 231 is pressed.
+[2024-11-07 17:20:58] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:58] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:20:58] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 1088
+[2024-11-07 17:20:59] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:20:59] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:20:59] Key 231 is pressed.
+[2024-11-07 17:20:59] keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:59] Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:20:59] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:20:59] GetCharFromVkCodeA Key 231 is pressed.
+[2024-11-07 17:20:59] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:20:59] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:20:59] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 1088
+[2024-11-07 17:21:00] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:21:00] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:21:00] GetCharFromVkCodeA Key 231 is not pressed.
+[2024-11-07 17:21:00] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:21:00] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:21:00] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 1080
+[2024-11-07 17:21:00] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:21:00] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:21:00] Key 231 is not pressed.
+[2024-11-07 17:21:01] keyboardState[VK_CODE]: 0
+[2024-11-07 17:21:01] Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:21:01] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:21:01] GetCharFromVkCodeA Key 231 is pressed.
+[2024-11-07 17:21:01] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:21:01] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:21:01] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 1080
+[2024-11-07 17:21:01] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:21:01] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:21:02] GetCharFromVkCodeA Key 231 is not pressed.
+[2024-11-07 17:21:02] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:21:02] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:21:02] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 1074
+[2024-11-07 17:21:02] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:21:02] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:21:02] Key 231 is not pressed.
+[2024-11-07 17:21:02] keyboardState[VK_CODE]: 0
+[2024-11-07 17:21:02] Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:21:03] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:21:03] GetCharFromVkCodeA Key 231 is pressed.
+[2024-11-07 17:21:03] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:21:03] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:21:03] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 1074
+[2024-11-07 17:21:03] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:21:03] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:21:03] GetCharFromVkCodeA Key 231 is not pressed.
+[2024-11-07 17:21:03] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:21:03] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:21:04] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 1077
+[2024-11-07 17:21:04] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:21:04] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:21:04] Key 231 is not pressed.
+[2024-11-07 17:21:04] keyboardState[VK_CODE]: 0
+[2024-11-07 17:21:04] Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:21:04] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:21:04] GetCharFromVkCodeA Key 231 is pressed.
+[2024-11-07 17:21:04] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:21:05] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:21:05] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 1077
+[2024-11-07 17:21:05] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:21:05] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:21:05] GetCharFromVkCodeA Key 231 is not pressed.
+[2024-11-07 17:21:05] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:21:05] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:21:05] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 1090
+[2024-11-07 17:21:05] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:21:06] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:21:06] Key 231 is not pressed.
+[2024-11-07 17:21:06] keyboardState[VK_CODE]: 0
+[2024-11-07 17:21:06] Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:21:06] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:21:06] GetCharFromVkCodeA Key 231 is pressed.
+[2024-11-07 17:21:06] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:21:06] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:21:06] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 1090
+[2024-11-07 17:21:07] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:21:07] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:21:07] --------------------------------------------------
+[2024-11-07 17:21:07] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:21:07] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:21:07] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:21:07] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 57
+[2024-11-07 17:21:07] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2:  
+[2024-11-07 17:21:07] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:21:07] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:21:08] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:21:08] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:21:08] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 57
+[2024-11-07 17:21:08] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2:  
+[2024-11-07 17:21:08] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:21:08] GetCharFromVkCodeA Key 231 is not pressed.
+[2024-11-07 17:21:08] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:21:08] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:21:08] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 32
+[2024-11-07 17:21:09] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: â
+[2024-11-07 17:21:09] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:21:09] Key 231 is not pressed.
+[2024-11-07 17:21:09] keyboardState[VK_CODE]: 0
+[2024-11-07 17:21:09] Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:21:09] ToUnicodeEx result: 1, buffer[0]: 
+/////////////////////////
+[2024-11-07 17:12:13] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:12:13] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:13] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:12:13] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 57
+[2024-11-07 17:12:13] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2:  
+[2024-11-07 17:12:13] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:12:14] GetCharFromVkCodeA Key 72 is not pressed.
+[2024-11-07 17:12:14] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:14] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:12:14] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 35
+[2024-11-07 17:12:14] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: ð
+[2024-11-07 17:12:14] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:12:14] GetCharFromVkCodeA Key 71 is pressed.
+[2024-11-07 17:12:14] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:14] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 71
+[2024-11-07 17:12:15] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 0
+[2024-11-07 17:12:15] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:12:15] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ï
+[2024-11-07 17:12:15] Key 71 is pressed.
+[2024-11-07 17:12:15] keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:15] Calling ToUnicodeEx with vkCode: 71
+[2024-11-07 17:12:15] ToUnicodeEx result: 1, buffer[0]: ï
+[2024-11-07 17:12:15] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:12:15] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:16] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:12:16] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 57
+[2024-11-07 17:12:16] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2:  
+[2024-11-07 17:12:16] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:12:16] GetCharFromVkCodeA Key 72 is not pressed.
+[2024-11-07 17:12:16] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:16] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:12:16] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 35
+[2024-11-07 17:12:16] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: ð
+[2024-11-07 17:12:16] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:12:17] GetCharFromVkCodeA Key 72 is not pressed.
+[2024-11-07 17:12:17] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:17] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:12:17] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 0
+[2024-11-07 17:12:17] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:12:17] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:12:17] GetCharFromVkCodeA Key 72 is not pressed.
+[2024-11-07 17:12:17] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:17] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:12:18] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 35
+[2024-11-07 17:12:18] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: ð
+[2024-11-07 17:12:18] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:12:18] GetCharFromVkCodeA Key 72 is not pressed.
+[2024-11-07 17:12:18] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:18] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:12:18] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 0
+[2024-11-07 17:12:18] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:12:18] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:12:19] Key 72 is not pressed.
+[2024-11-07 17:12:19] keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:19] Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:12:19] ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:12:19] GetCharFromVkCodeA Key 72 is pressed.
+[2024-11-07 17:12:19] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:19] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:12:19] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 35
+[2024-11-07 17:12:19] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: ð
+[2024-11-07 17:12:20] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:12:20] GetCharFromVkCodeA Key 72 is pressed.
+[2024-11-07 17:12:20] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:20] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:12:20] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 0
+[2024-11-07 17:12:20] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:12:20] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:12:20] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:12:20] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:21] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:12:21] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 57
+[2024-11-07 17:12:21] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2:  
+[2024-11-07 17:12:21] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:12:21] GetCharFromVkCodeA Key 78 is not pressed.
+[2024-11-07 17:12:21] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:21] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 78
+[2024-11-07 17:12:21] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 49
+[2024-11-07 17:12:21] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: ò
+[2024-11-07 17:12:21] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ò
+[2024-11-07 17:12:22] GetCharFromVkCodeA Key 66 is pressed.
+[2024-11-07 17:12:22] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:22] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 66
+[2024-11-07 17:12:22] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 0
+[2024-11-07 17:12:23] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:12:23] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: è
+[2024-11-07 17:12:23] Key 66 is pressed.
+[2024-11-07 17:12:23] keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:23] Calling ToUnicodeEx with vkCode: 66
+[2024-11-07 17:12:23] ToUnicodeEx result: 1, buffer[0]: è
+[2024-11-07 17:12:23] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:12:23] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:23] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:12:24] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 57
+[2024-11-07 17:12:24] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2:  
+[2024-11-07 17:12:24] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:12:24] GetCharFromVkCodeA Key 78 is not pressed.
+[2024-11-07 17:12:24] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:24] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 78
+[2024-11-07 17:12:24] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 49
+[2024-11-07 17:12:24] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: ò
+[2024-11-07 17:12:24] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ò
+[2024-11-07 17:12:25] GetCharFromVkCodeA Key 78 is not pressed.
+[2024-11-07 17:12:25] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:25] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 78
+[2024-11-07 17:12:25] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 0
+[2024-11-07 17:12:25] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:12:25] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ò
+[2024-11-07 17:12:25] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:12:25] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:25] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:12:26] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 57
+[2024-11-07 17:12:26] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2:  
+[2024-11-07 17:12:26] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:12:26] GetCharFromVkCodeA Key 75 is not pressed.
+[2024-11-07 17:12:26] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:26] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 75
+[2024-11-07 17:12:26] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 37
+[2024-11-07 17:12:26] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: ë
+[2024-11-07 17:12:26] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ë
+[2024-11-07 17:12:27] GetCharFromVkCodeA Key 68 is pressed.
+[2024-11-07 17:12:27] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:27] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 68
+[2024-11-07 17:12:27] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 0
+[2024-11-07 17:12:27] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:12:27] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: â
+[2024-11-07 17:12:27] Key 68 is pressed.
+[2024-11-07 17:12:27] keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:27] Calling ToUnicodeEx with vkCode: 68
+[2024-11-07 17:12:28] ToUnicodeEx result: 1, buffer[0]: â
+[2024-11-07 17:12:28] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:12:28] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:28] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:12:28] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 57
+[2024-11-07 17:12:28] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2:  
+[2024-11-07 17:12:28] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:12:28] GetCharFromVkCodeA Key 75 is not pressed.
+[2024-11-07 17:12:28] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:28] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 75
+[2024-11-07 17:12:29] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 37
+[2024-11-07 17:12:29] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: ë
+[2024-11-07 17:12:29] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ë
+[2024-11-07 17:12:29] GetCharFromVkCodeA Key 75 is not pressed.
+[2024-11-07 17:12:29] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:29] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 75
+[2024-11-07 17:12:29] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 0
+[2024-11-07 17:12:29] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:12:29] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ë
+[2024-11-07 17:12:30] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:12:30] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:30] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:12:30] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 57
+[2024-11-07 17:12:30] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2:  
+[2024-11-07 17:12:30] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:12:30] GetCharFromVkCodeA Key 89 is not pressed.
+[2024-11-07 17:12:30] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:30] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 89
+[2024-11-07 17:12:31] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 21
+[2024-11-07 17:12:31] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: í
+[2024-11-07 17:12:31] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: í
+[2024-11-07 17:12:31] GetCharFromVkCodeA Key 84 is pressed.
+[2024-11-07 17:12:31] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:31] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 84
+[2024-11-07 17:12:31] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 0
+[2024-11-07 17:12:31] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:12:31] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: å
+[2024-11-07 17:12:32] Key 84 is pressed.
+[2024-11-07 17:12:32] keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:32] Calling ToUnicodeEx with vkCode: 84
+[2024-11-07 17:12:32] ToUnicodeEx result: 1, buffer[0]: å
+[2024-11-07 17:12:32] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:12:32] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:32] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:12:32] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 57
+[2024-11-07 17:12:32] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2:  
+[2024-11-07 17:12:32] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:12:33] GetCharFromVkCodeA Key 89 is not pressed.
+[2024-11-07 17:12:33] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:33] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 89
+[2024-11-07 17:12:33] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 21
+[2024-11-07 17:12:33] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: í
+[2024-11-07 17:12:33] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: í
+[2024-11-07 17:12:33] GetCharFromVkCodeA Key 89 is not pressed.
+[2024-11-07 17:12:33] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:33] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 89
+[2024-11-07 17:12:34] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 0
+[2024-11-07 17:12:34] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:12:34] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: í
+[2024-11-07 17:12:34] GetCharFromVkCodeA Key 78 is not pressed.
+[2024-11-07 17:12:34] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:34] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 78
+[2024-11-07 17:12:34] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 49
+[2024-11-07 17:12:34] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: ò
+[2024-11-07 17:12:34] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ò
+[2024-11-07 17:12:35] GetCharFromVkCodeA Key 78 is not pressed.
+[2024-11-07 17:12:35] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:35] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 78
+[2024-11-07 17:12:35] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 0
+[2024-11-07 17:12:35] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:12:35] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ò
+[2024-11-07 17:12:35] Key 78 is not pressed.
+[2024-11-07 17:12:35] keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:35] Calling ToUnicodeEx with vkCode: 78
+[2024-11-07 17:12:36] ToUnicodeEx result: 1, buffer[0]: ò
+[2024-11-07 17:12:36] GetCharFromVkCodeA Key 78 is pressed.
+[2024-11-07 17:12:36] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:36] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 78
+[2024-11-07 17:12:36] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 49
+[2024-11-07 17:12:36] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: ò
+[2024-11-07 17:12:36] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ò
+[2024-11-07 17:12:36] GetCharFromVkCodeA Key 78 is pressed.
+[2024-11-07 17:12:36] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:36] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 78
+[2024-11-07 17:12:37] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 0
+[2024-11-07 17:12:37] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:12:37] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ò
+[2024-11-07 17:12:37] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:12:37] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:37] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:12:37] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 57
+[2024-11-07 17:12:37] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2:  
+[2024-11-07 17:12:37] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:12:38] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:12:38] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:38] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:12:38] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 57
+[2024-11-07 17:12:38] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2:  
+[2024-11-07 17:12:38] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:12:38] GetCharFromVkCodeA Key 231 is pressed.
+[2024-11-07 17:12:38] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:38] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:12:39] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 32
+[2024-11-07 17:12:39] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: â
+[2024-11-07 17:12:39] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:12:39] Key 231 is pressed.
+[2024-11-07 17:12:39] keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:39] Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:12:39] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:12:39] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:12:39] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:40] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:12:40] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 57
+[2024-11-07 17:12:40] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2:  
+[2024-11-07 17:12:40] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:12:40] GetCharFromVkCodeA Key 72 is not pressed.
+[2024-11-07 17:12:40] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:40] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:12:40] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 35
+[2024-11-07 17:12:40] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: ð
+[2024-11-07 17:12:41] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:12:41] GetCharFromVkCodeA Key 71 is pressed.
+[2024-11-07 17:12:41] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:41] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 71
+[2024-11-07 17:12:41] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 0
+[2024-11-07 17:12:41] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:12:41] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ï
+[2024-11-07 17:12:41] Key 71 is pressed.
+[2024-11-07 17:12:41] keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:41] Calling ToUnicodeEx with vkCode: 71
+[2024-11-07 17:12:42] ToUnicodeEx result: 1, buffer[0]: ï
+[2024-11-07 17:12:42] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:12:42] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:42] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:12:42] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 57
+[2024-11-07 17:12:42] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2:  
+[2024-11-07 17:12:42] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:12:42] GetCharFromVkCodeA Key 72 is not pressed.
+[2024-11-07 17:12:42] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:43] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:12:43] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 35
+[2024-11-07 17:12:43] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: ð
+[2024-11-07 17:12:43] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:12:43] GetCharFromVkCodeA Key 72 is not pressed.
+[2024-11-07 17:12:43] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:43] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:12:43] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 0
+[2024-11-07 17:12:43] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:12:44] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:12:44] GetCharFromVkCodeA Key 162 is not pressed.
+[2024-11-07 17:12:44] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:44] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 162
+[2024-11-07 17:12:44] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 541
+[2024-11-07 17:12:44] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:12:44] GetCharFromVkCodeA ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 17:12:44] GetCharFromVkCodeA Key 165 is not pressed.
+[2024-11-07 17:12:44] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:45] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 165
+[2024-11-07 17:12:45] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 56
+[2024-11-07 17:12:45] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:12:45] GetCharFromVkCodeA ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 17:12:45] GetCharFromVkCodeA Key 162 is pressed.
+[2024-11-07 17:12:45] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:45] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 162
+[2024-11-07 17:12:45] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 541
+[2024-11-07 17:12:45] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:12:46] GetCharFromVkCodeA ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 17:12:46] GetCharFromVkCodeA Key 165 is not pressed.
+[2024-11-07 17:12:46] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:46] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 165
+[2024-11-07 17:12:46] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 56
+[2024-11-07 17:12:46] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:12:46] GetCharFromVkCodeA ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 17:12:46] **************************************
+[2024-11-07 17:12:46] GetCharFromVkCodeA Key 231 is pressed.
+[2024-11-07 17:12:47] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:47] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:12:47] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 1088
+[2024-11-07 17:12:47] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:12:47] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:12:47] Key 231 is pressed.
+[2024-11-07 17:12:47] keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:47] Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:12:47] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:12:47] GetCharFromVkCodeA Key 231 is pressed.
+[2024-11-07 17:12:48] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:48] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:12:48] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 1088
+[2024-11-07 17:12:48] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:12:48] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:12:48] GetCharFromVkCodeA Key 231 is not pressed.
+[2024-11-07 17:12:48] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:48] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:12:48] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 1080
+[2024-11-07 17:12:49] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:12:49] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:12:49] Key 231 is not pressed.
+[2024-11-07 17:12:49] keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:49] Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:12:49] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:12:49] GetCharFromVkCodeA Key 231 is pressed.
+[2024-11-07 17:12:49] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:49] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:12:50] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 1080
+[2024-11-07 17:12:50] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:12:50] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:12:50] GetCharFromVkCodeA Key 231 is not pressed.
+[2024-11-07 17:12:50] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:50] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:12:50] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 1074
+[2024-11-07 17:12:50] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:12:50] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:12:51] Key 231 is not pressed.
+[2024-11-07 17:12:51] keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:51] Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:12:51] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:12:51] GetCharFromVkCodeA Key 231 is pressed.
+[2024-11-07 17:12:51] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:51] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:12:51] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 1074
+[2024-11-07 17:12:51] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:12:51] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:12:52] GetCharFromVkCodeA Key 231 is not pressed.
+[2024-11-07 17:12:52] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:52] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:12:52] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 1077
+[2024-11-07 17:12:52] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:12:52] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:12:52] Key 231 is not pressed.
+[2024-11-07 17:12:52] keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:52] Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:12:53] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:12:53] GetCharFromVkCodeA Key 231 is pressed.
+[2024-11-07 17:12:53] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:53] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:12:53] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 1077
+[2024-11-07 17:12:53] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:12:53] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:12:53] GetCharFromVkCodeA Key 231 is not pressed.
+[2024-11-07 17:12:53] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:54] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:12:54] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 1090
+[2024-11-07 17:12:54] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:12:54] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:12:54] Key 231 is not pressed.
+[2024-11-07 17:12:54] keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:54] Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:12:54] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:12:54] GetCharFromVkCodeA Key 231 is pressed.
+[2024-11-07 17:12:55] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:55] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:12:55] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 1090
+[2024-11-07 17:12:55] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: 
+[2024-11-07 17:12:55] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:12:55] --------------------------------------------------
+[2024-11-07 17:12:55] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:12:55] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:55] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:12:56] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 57
+[2024-11-07 17:12:56] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2:  
+[2024-11-07 17:12:56] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:12:56] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:12:56] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:56] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:12:56] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 57
+[2024-11-07 17:12:56] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2:  
+[2024-11-07 17:12:56] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:12:56] GetCharFromVkCodeA Key 231 is not pressed.
+[2024-11-07 17:12:57] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:57] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:12:57] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 32
+[2024-11-07 17:12:57] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode2: â
+[2024-11-07 17:12:57] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:12:57] Key 231 is not pressed.
+[2024-11-07 17:12:57] keyboardState[VK_CODE]: 0
+[2024-11-07 17:12:57] Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:12:57] ToUnicodeEx result: 1, buffer[0]: 
+/////////////////////////
+[2024-11-07 17:04:46] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:04:46] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:04:46] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:04:46] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode:  
+[2024-11-07 17:04:46] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:04:47] GetCharFromVkCodeA Key 72 is not pressed.
+[2024-11-07 17:04:47] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:04:47] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:04:47] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: ð
+[2024-11-07 17:04:47] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:04:47] GetCharFromVkCodeA Key 71 is pressed.
+[2024-11-07 17:04:47] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:04:47] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 71
+[2024-11-07 17:04:47] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 
+[2024-11-07 17:04:48] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ï
+[2024-11-07 17:04:48] Key 71 is pressed.
+[2024-11-07 17:04:48] keyboardState[VK_CODE]: 0
+[2024-11-07 17:04:48] Calling ToUnicodeEx with vkCode: 71
+[2024-11-07 17:04:48] ToUnicodeEx result: 1, buffer[0]: ï
+[2024-11-07 17:04:48] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:04:48] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:04:48] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:04:48] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode:  
+[2024-11-07 17:04:49] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:04:49] GetCharFromVkCodeA Key 72 is not pressed.
+[2024-11-07 17:04:49] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:04:49] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:04:49] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: ð
+[2024-11-07 17:04:49] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:04:49] GetCharFromVkCodeA Key 72 is not pressed.
+[2024-11-07 17:04:49] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:04:49] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:04:50] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 
+[2024-11-07 17:04:50] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:04:50] GetCharFromVkCodeA Key 72 is not pressed.
+[2024-11-07 17:04:50] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:04:50] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:04:50] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: ð
+[2024-11-07 17:04:50] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:04:50] GetCharFromVkCodeA Key 72 is not pressed.
+[2024-11-07 17:04:50] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:04:51] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:04:51] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 
+[2024-11-07 17:04:51] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:04:51] Key 72 is not pressed.
+[2024-11-07 17:04:51] keyboardState[VK_CODE]: 0
+[2024-11-07 17:04:51] Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:04:51] ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:04:51] GetCharFromVkCodeA Key 72 is pressed.
+[2024-11-07 17:04:51] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:04:52] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:04:52] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: ð
+[2024-11-07 17:04:52] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:04:52] GetCharFromVkCodeA Key 72 is pressed.
+[2024-11-07 17:04:52] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:04:52] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:04:52] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 
+[2024-11-07 17:04:52] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:04:52] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:04:53] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:04:53] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:04:53] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode:  
+[2024-11-07 17:04:53] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:04:53] GetCharFromVkCodeA Key 78 is not pressed.
+[2024-11-07 17:04:53] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:04:54] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 78
+[2024-11-07 17:04:54] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: ò
+[2024-11-07 17:04:54] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ò
+[2024-11-07 17:04:54] GetCharFromVkCodeA Key 66 is pressed.
+[2024-11-07 17:04:54] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:04:54] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 66
+[2024-11-07 17:04:54] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 
+[2024-11-07 17:04:54] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: è
+[2024-11-07 17:04:55] Key 66 is pressed.
+[2024-11-07 17:04:55] keyboardState[VK_CODE]: 0
+[2024-11-07 17:04:55] Calling ToUnicodeEx with vkCode: 66
+[2024-11-07 17:04:55] ToUnicodeEx result: 1, buffer[0]: è
+[2024-11-07 17:04:55] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:04:55] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:04:55] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:04:55] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode:  
+[2024-11-07 17:04:55] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:04:56] GetCharFromVkCodeA Key 78 is not pressed.
+[2024-11-07 17:04:56] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:04:56] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 78
+[2024-11-07 17:04:56] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: ò
+[2024-11-07 17:04:56] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ò
+[2024-11-07 17:04:56] GetCharFromVkCodeA Key 78 is not pressed.
+[2024-11-07 17:04:56] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:04:56] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 78
+[2024-11-07 17:04:56] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 
+[2024-11-07 17:04:57] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ò
+[2024-11-07 17:04:57] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:04:57] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:04:57] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:04:57] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode:  
+[2024-11-07 17:04:57] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:04:57] GetCharFromVkCodeA Key 75 is not pressed.
+[2024-11-07 17:04:57] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:04:57] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 75
+[2024-11-07 17:04:58] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: ë
+[2024-11-07 17:04:58] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ë
+[2024-11-07 17:04:58] GetCharFromVkCodeA Key 68 is pressed.
+[2024-11-07 17:04:58] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:04:58] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 68
+[2024-11-07 17:04:58] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 
+[2024-11-07 17:04:58] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: â
+[2024-11-07 17:04:58] Key 68 is pressed.
+[2024-11-07 17:04:58] keyboardState[VK_CODE]: 0
+[2024-11-07 17:04:58] Calling ToUnicodeEx with vkCode: 68
+[2024-11-07 17:04:59] ToUnicodeEx result: 1, buffer[0]: â
+[2024-11-07 17:04:59] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:04:59] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:04:59] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:04:59] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode:  
+[2024-11-07 17:04:59] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:04:59] GetCharFromVkCodeA Key 75 is not pressed.
+[2024-11-07 17:04:59] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:04:59] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 75
+[2024-11-07 17:05:00] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: ë
+[2024-11-07 17:05:00] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ë
+[2024-11-07 17:05:00] GetCharFromVkCodeA Key 75 is not pressed.
+[2024-11-07 17:05:00] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:00] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 75
+[2024-11-07 17:05:00] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 
+[2024-11-07 17:05:00] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ë
+[2024-11-07 17:05:00] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:05:01] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:01] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:05:01] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode:  
+[2024-11-07 17:05:01] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:05:01] GetCharFromVkCodeA Key 89 is not pressed.
+[2024-11-07 17:05:01] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:01] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 89
+[2024-11-07 17:05:01] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: í
+[2024-11-07 17:05:01] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: í
+[2024-11-07 17:05:01] GetCharFromVkCodeA Key 84 is pressed.
+[2024-11-07 17:05:02] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:02] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 84
+[2024-11-07 17:05:02] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 
+[2024-11-07 17:05:02] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: å
+[2024-11-07 17:05:02] Key 84 is pressed.
+[2024-11-07 17:05:02] keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:02] Calling ToUnicodeEx with vkCode: 84
+[2024-11-07 17:05:02] ToUnicodeEx result: 1, buffer[0]: å
+[2024-11-07 17:05:02] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:05:03] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:03] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:05:03] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode:  
+[2024-11-07 17:05:03] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:05:03] GetCharFromVkCodeA Key 89 is not pressed.
+[2024-11-07 17:05:03] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:03] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 89
+[2024-11-07 17:05:03] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: í
+[2024-11-07 17:05:03] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: í
+[2024-11-07 17:05:04] GetCharFromVkCodeA Key 89 is not pressed.
+[2024-11-07 17:05:04] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:04] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 89
+[2024-11-07 17:05:04] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 
+[2024-11-07 17:05:04] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: í
+[2024-11-07 17:05:04] GetCharFromVkCodeA Key 78 is not pressed.
+[2024-11-07 17:05:04] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:04] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 78
+[2024-11-07 17:05:04] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: ò
+[2024-11-07 17:05:05] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ò
+[2024-11-07 17:05:05] GetCharFromVkCodeA Key 78 is not pressed.
+[2024-11-07 17:05:05] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:05] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 78
+[2024-11-07 17:05:05] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 
+[2024-11-07 17:05:05] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ò
+[2024-11-07 17:05:05] Key 78 is not pressed.
+[2024-11-07 17:05:05] keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:05] Calling ToUnicodeEx with vkCode: 78
+[2024-11-07 17:05:05] ToUnicodeEx result: 1, buffer[0]: ò
+[2024-11-07 17:05:06] GetCharFromVkCodeA Key 78 is pressed.
+[2024-11-07 17:05:06] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:06] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 78
+[2024-11-07 17:05:06] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: ò
+[2024-11-07 17:05:06] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ò
+[2024-11-07 17:05:06] GetCharFromVkCodeA Key 78 is pressed.
+[2024-11-07 17:05:06] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:06] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 78
+[2024-11-07 17:05:06] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 
+[2024-11-07 17:05:07] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ò
+[2024-11-07 17:05:07] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:05:07] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:07] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:05:07] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode:  
+[2024-11-07 17:05:07] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:05:07] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:05:07] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:07] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:05:08] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode:  
+[2024-11-07 17:05:08] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:05:08] GetCharFromVkCodeA Key 231 is pressed.
+[2024-11-07 17:05:08] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:08] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:05:08] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: â
+[2024-11-07 17:05:08] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:05:08] Key 231 is pressed.
+[2024-11-07 17:05:08] keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:09] Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:05:09] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:05:09] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:05:09] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:09] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:05:09] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode:  
+[2024-11-07 17:05:09] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:05:09] GetCharFromVkCodeA Key 72 is not pressed.
+[2024-11-07 17:05:09] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:10] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:05:10] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: ð
+[2024-11-07 17:05:10] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:05:10] GetCharFromVkCodeA Key 71 is pressed.
+[2024-11-07 17:05:10] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:10] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 71
+[2024-11-07 17:05:10] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 
+[2024-11-07 17:05:10] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ï
+[2024-11-07 17:05:10] Key 71 is pressed.
+[2024-11-07 17:05:10] keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:11] Calling ToUnicodeEx with vkCode: 71
+[2024-11-07 17:05:11] ToUnicodeEx result: 1, buffer[0]: ï
+[2024-11-07 17:05:11] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:05:11] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:11] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:05:11] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode:  
+[2024-11-07 17:05:11] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:05:11] GetCharFromVkCodeA Key 72 is not pressed.
+[2024-11-07 17:05:11] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:12] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:05:12] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: ð
+[2024-11-07 17:05:12] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:05:12] GetCharFromVkCodeA Key 72 is not pressed.
+[2024-11-07 17:05:12] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:12] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 17:05:12] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 
+[2024-11-07 17:05:12] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 17:05:12] GetCharFromVkCodeA Key 162 is not pressed.
+[2024-11-07 17:05:13] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:13] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 162
+[2024-11-07 17:05:13] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 
+[2024-11-07 17:05:13] GetCharFromVkCodeA ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 17:05:13] GetCharFromVkCodeA Key 165 is not pressed.
+[2024-11-07 17:05:13] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:13] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 165
+[2024-11-07 17:05:13] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 
+[2024-11-07 17:05:13] GetCharFromVkCodeA ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 17:05:14] GetCharFromVkCodeA Key 162 is pressed.
+[2024-11-07 17:05:14] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:14] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 162
+[2024-11-07 17:05:14] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 
+[2024-11-07 17:05:14] GetCharFromVkCodeA ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 17:05:14] GetCharFromVkCodeA Key 165 is not pressed.
+[2024-11-07 17:05:14] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:14] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 165
+[2024-11-07 17:05:14] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 
+[2024-11-07 17:05:14] GetCharFromVkCodeA ToUnicodeEx result: 0, buffer[0]: 
+[2024-11-07 17:05:15] **************************************
+[2024-11-07 17:05:15] GetCharFromVkCodeA Key 231 is pressed.
+[2024-11-07 17:05:15] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:15] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:05:15] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 
+[2024-11-07 17:05:15] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:05:15] Key 231 is pressed.
+[2024-11-07 17:05:15] keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:15] Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:05:16] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:05:16] GetCharFromVkCodeA Key 231 is pressed.
+[2024-11-07 17:05:16] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:16] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:05:16] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 
+[2024-11-07 17:05:16] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:05:16] GetCharFromVkCodeA Key 231 is not pressed.
+[2024-11-07 17:05:16] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:16] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:05:17] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 
+[2024-11-07 17:05:17] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:05:17] Key 231 is not pressed.
+[2024-11-07 17:05:17] keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:17] Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:05:17] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:05:17] GetCharFromVkCodeA Key 231 is pressed.
+[2024-11-07 17:05:17] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:17] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:05:18] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 
+[2024-11-07 17:05:18] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:05:18] GetCharFromVkCodeA Key 231 is not pressed.
+[2024-11-07 17:05:18] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:18] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:05:18] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 
+[2024-11-07 17:05:18] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:05:18] Key 231 is not pressed.
+[2024-11-07 17:05:18] keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:19] Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:05:19] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:05:19] GetCharFromVkCodeA Key 231 is pressed.
+[2024-11-07 17:05:19] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:19] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:05:19] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 
+[2024-11-07 17:05:19] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:05:19] GetCharFromVkCodeA Key 231 is not pressed.
+[2024-11-07 17:05:19] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:19] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:05:20] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 
+[2024-11-07 17:05:20] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:05:20] Key 231 is not pressed.
+[2024-11-07 17:05:20] keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:20] Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:05:20] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:05:20] GetCharFromVkCodeA Key 231 is pressed.
+[2024-11-07 17:05:20] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:20] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:05:21] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 
+[2024-11-07 17:05:21] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:05:21] GetCharFromVkCodeA Key 231 is not pressed.
+[2024-11-07 17:05:21] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:21] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:05:21] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 
+[2024-11-07 17:05:21] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:05:21] Key 231 is not pressed.
+[2024-11-07 17:05:21] keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:22] Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:05:22] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:05:22] GetCharFromVkCodeA Key 231 is pressed.
+[2024-11-07 17:05:22] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:22] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:05:22] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: 
+[2024-11-07 17:05:22] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:05:22] --------------------------------------------------
+[2024-11-07 17:05:22] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:05:23] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:23] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:05:23] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode:  
+[2024-11-07 17:05:23] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:05:23] GetCharFromVkCodeA Key 32 is not pressed.
+[2024-11-07 17:05:23] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:23] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 32
+[2024-11-07 17:05:23] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode:  
+[2024-11-07 17:05:23] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]:  
+[2024-11-07 17:05:24] GetCharFromVkCodeA Key 231 is not pressed.
+[2024-11-07 17:05:24] GetCharFromVkCodeA keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:24] GetCharFromVkCodeA Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:05:24] GetCharFromVkCodeA Calling ToUnicodeEx with scanCode: â
+[2024-11-07 17:05:24] GetCharFromVkCodeA ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 17:05:24] Key 231 is not pressed.
+[2024-11-07 17:05:24] keyboardState[VK_CODE]: 0
+[2024-11-07 17:05:24] Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 17:05:24] ToUnicodeEx result: 1, buffer[0]: 
+/////////////////////////
+[2024-11-07 16:58:04] ToUnicodeEx with scanCode:  
+[2024-11-07 16:58:04] ToUnicodeEx with scanCode: ð
+[2024-11-07 16:58:05] ToUnicodeEx with scanCode: 
+[2024-11-07 16:58:05] Key 71 is pressed.
+[2024-11-07 16:58:05] keyboardState[VK_CODE]: 0
+[2024-11-07 16:58:05] Calling ToUnicodeEx with vkCode: 71
+[2024-11-07 16:58:05] ToUnicodeEx result: 1, buffer[0]: ï
+[2024-11-07 16:58:05] ToUnicodeEx with scanCode:  
+[2024-11-07 16:58:05] ToUnicodeEx with scanCode: ð
+[2024-11-07 16:58:05] ToUnicodeEx with scanCode: 
+[2024-11-07 16:58:05] ToUnicodeEx with scanCode: ð
+[2024-11-07 16:58:06] ToUnicodeEx with scanCode: 
+[2024-11-07 16:58:06] Key 72 is not pressed.
+[2024-11-07 16:58:06] keyboardState[VK_CODE]: 0
+[2024-11-07 16:58:06] Calling ToUnicodeEx with vkCode: 72
+[2024-11-07 16:58:06] ToUnicodeEx result: 1, buffer[0]: ð
+[2024-11-07 16:58:06] ToUnicodeEx with scanCode: ð
+[2024-11-07 16:58:06] ToUnicodeEx with scanCode: 
+[2024-11-07 16:58:06] ToUnicodeEx with scanCode:  
+[2024-11-07 16:58:06] ToUnicodeEx with scanCode: ò
+[2024-11-07 16:58:06] ToUnicodeEx with scanCode: 
+[2024-11-07 16:58:07] Key 66 is pressed.
+[2024-11-07 16:58:07] keyboardState[VK_CODE]: 0
+[2024-11-07 16:58:07] Calling ToUnicodeEx with vkCode: 66
+[2024-11-07 16:58:07] ToUnicodeEx result: 1, buffer[0]: è
+[2024-11-07 16:58:07] ToUnicodeEx with scanCode:  
+[2024-11-07 16:58:07] ToUnicodeEx with scanCode: ò
+[2024-11-07 16:58:07] ToUnicodeEx with scanCode: 
+[2024-11-07 16:58:07] ToUnicodeEx with scanCode:  
+[2024-11-07 16:58:07] ToUnicodeEx with scanCode: ë
+[2024-11-07 16:58:08] ToUnicodeEx with scanCode: 
+[2024-11-07 16:58:08] Key 68 is pressed.
+[2024-11-07 16:58:08] keyboardState[VK_CODE]: 0
+[2024-11-07 16:58:08] Calling ToUnicodeEx with vkCode: 68
+[2024-11-07 16:58:08] ToUnicodeEx result: 1, buffer[0]: â
+[2024-11-07 16:58:08] ToUnicodeEx with scanCode:  
+[2024-11-07 16:58:08] ToUnicodeEx with scanCode: ë
+[2024-11-07 16:58:08] ToUnicodeEx with scanCode: 
+[2024-11-07 16:58:08] ToUnicodeEx with scanCode:  
+[2024-11-07 16:58:09] ToUnicodeEx with scanCode: í
+[2024-11-07 16:58:09] ToUnicodeEx with scanCode: 
+[2024-11-07 16:58:09] Key 84 is pressed.
+[2024-11-07 16:58:09] keyboardState[VK_CODE]: 0
+[2024-11-07 16:58:09] Calling ToUnicodeEx with vkCode: 84
+[2024-11-07 16:58:09] ToUnicodeEx result: 1, buffer[0]: å
+[2024-11-07 16:58:09] ToUnicodeEx with scanCode:  
+[2024-11-07 16:58:09] ToUnicodeEx with scanCode: í
+[2024-11-07 16:58:09] ToUnicodeEx with scanCode: 
+[2024-11-07 16:58:10] ToUnicodeEx with scanCode: ò
+[2024-11-07 16:58:10] ToUnicodeEx with scanCode: 
+[2024-11-07 16:58:10] Key 78 is not pressed.
+[2024-11-07 16:58:10] keyboardState[VK_CODE]: 0
+[2024-11-07 16:58:10] Calling ToUnicodeEx with vkCode: 78
+[2024-11-07 16:58:10] ToUnicodeEx result: 1, buffer[0]: ò
+[2024-11-07 16:58:10] ToUnicodeEx with scanCode: ò
+[2024-11-07 16:58:10] ToUnicodeEx with scanCode: 
+[2024-11-07 16:58:10] ToUnicodeEx with scanCode:  
+[2024-11-07 16:58:11] ToUnicodeEx with scanCode:  
+[2024-11-07 16:58:11] ToUnicodeEx with scanCode: â
+[2024-11-07 16:58:11] Key 231 is pressed.
+[2024-11-07 16:58:11] keyboardState[VK_CODE]: 0
+[2024-11-07 16:58:11] Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 16:58:11] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 16:58:11] ToUnicodeEx with scanCode:  
+[2024-11-07 16:58:11] ToUnicodeEx with scanCode: ð
+[2024-11-07 16:58:11] ToUnicodeEx with scanCode: 
+[2024-11-07 16:58:12] Key 71 is pressed.
+[2024-11-07 16:58:12] keyboardState[VK_CODE]: 0
+[2024-11-07 16:58:12] Calling ToUnicodeEx with vkCode: 71
+[2024-11-07 16:58:12] ToUnicodeEx result: 1, buffer[0]: ï
+[2024-11-07 16:58:12] ToUnicodeEx with scanCode:  
+[2024-11-07 16:58:13] ToUnicodeEx with scanCode: ð
+[2024-11-07 16:58:13] ToUnicodeEx with scanCode: 
+[2024-11-07 16:58:13] ToUnicodeEx with scanCode: 
+[2024-11-07 16:58:13] ToUnicodeEx with scanCode: 
+[2024-11-07 16:58:13] ToUnicodeEx with scanCode: 
+[2024-11-07 16:58:13] ToUnicodeEx with scanCode: 
+[2024-11-07 16:58:13] **************************************
+[2024-11-07 16:58:13] ToUnicodeEx with scanCode: 
+[2024-11-07 16:58:13] Key 231 is pressed.
+[2024-11-07 16:58:14] keyboardState[VK_CODE]: 0
+[2024-11-07 16:58:14] Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 16:58:14] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 16:58:14] ToUnicodeEx with scanCode: 
+[2024-11-07 16:58:14] ToUnicodeEx with scanCode: 
+[2024-11-07 16:58:14] Key 231 is not pressed.
+[2024-11-07 16:58:14] keyboardState[VK_CODE]: 0
+[2024-11-07 16:58:14] Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 16:58:14] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 16:58:15] ToUnicodeEx with scanCode: 
+[2024-11-07 16:58:15] ToUnicodeEx with scanCode: 
+[2024-11-07 16:58:15] Key 231 is not pressed.
+[2024-11-07 16:58:15] keyboardState[VK_CODE]: 0
+[2024-11-07 16:58:15] Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 16:58:15] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 16:58:15] ToUnicodeEx with scanCode: 
+[2024-11-07 16:58:15] ToUnicodeEx with scanCode: 
+[2024-11-07 16:58:15] Key 231 is not pressed.
+[2024-11-07 16:58:16] keyboardState[VK_CODE]: 0
+[2024-11-07 16:58:16] Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 16:58:16] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 16:58:16] ToUnicodeEx with scanCode: 
+[2024-11-07 16:58:16] ToUnicodeEx with scanCode: 
+[2024-11-07 16:58:16] Key 231 is not pressed.
+[2024-11-07 16:58:16] keyboardState[VK_CODE]: 0
+[2024-11-07 16:58:16] Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 16:58:16] ToUnicodeEx result: 1, buffer[0]: 
+[2024-11-07 16:58:16] ToUnicodeEx with scanCode: 
+[2024-11-07 16:58:17] --------------------------------------------------
+[2024-11-07 16:58:17] ToUnicodeEx with scanCode:  
+[2024-11-07 16:58:17] ToUnicodeEx with scanCode:  
+[2024-11-07 16:58:17] ToUnicodeEx with scanCode: â
+[2024-11-07 16:58:17] Key 231 is not pressed.
+[2024-11-07 16:58:17] keyboardState[VK_CODE]: 0
+[2024-11-07 16:58:17] Calling ToUnicodeEx with vkCode: 231
+[2024-11-07 16:58:17] ToUnicodeEx result: 1, buffer[0]: 
