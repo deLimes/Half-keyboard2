@@ -1,21 +1,21 @@
 ﻿  main.cpp
 D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1465,15): warning C4244: =: преобразование "DWORD" в "char", возможна потеря данных
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1869,27): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1875,26): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1441,8): warning C4101: newVkCode: неиспользованная локальная переменная
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2274,9): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "WPARAM"
-      C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2274,9):
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1312,15): warning C4244: =: преобразование "DWORD" в "char", возможна потеря данных
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1716,27): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1722,26): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1288,8): warning C4101: newVkCode: неиспользованная локальная переменная
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2122,9): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "WPARAM"
+      C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2122,9):
       рекомендуется использовать "%lld" в строке форматирования
-      C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2274,9):
+      C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2122,9):
       рекомендуется использовать "%Id" в строке форматирования
-      C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2274,9):
+      C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2122,9):
       рекомендуется использовать "%I64d" в строке форматирования
   
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2528,68): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2686,33): warning C4302: приведение типов: усечение из "LPWSTR" к "WORD"
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2939,2): warning C4551: в вызове функции отсутствует список аргументов
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2940,2): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2376,68): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2534,33): warning C4302: приведение типов: усечение из "LPWSTR" к "WORD"
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2787,2): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2788,2): warning C4551: в вызове функции отсутствует список аргументов
 D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(4689,18): warning C4244: =: преобразование "const wchar_t" в "char", возможна потеря данных
   (компиляция исходного файла "main.cpp")
       D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(4689,18):
@@ -50,8 +50,8 @@ D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.3412
           ]
   
   Создание кода
-  1 of 1715 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+  33 of 1714 functions ( 1.9%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+    22 functions had inline decision re-evaluated but remain unchanged
   Создание кода завершено
   GetKey.vcxproj -> C:\Users\38301\source\repos\Half-keyboard2\x64\Release\HalfKeyboard.exe
