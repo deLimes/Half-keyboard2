@@ -1,19 +1,19 @@
 ﻿D:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (GetKey.vcxproj, Half keyboard.vcxproj).  Это может привести к ошибкам очистки и перестроения.
   main.cpp
 D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1147,20): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1260,15): warning C4244: =: преобразование "DWORD" в "char", возможна потеря данных
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1667,27): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1673,26): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1236,8): warning C4101: newVkCode: неиспользованная локальная переменная
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2479,33): warning C4302: приведение типов: усечение из "LPWSTR" к "WORD"
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2734,2): warning C4551: в вызове функции отсутствует список аргументов
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2735,2): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1171,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1465,15): warning C4244: =: преобразование "DWORD" в "char", возможна потеря данных
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1869,27): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1875,26): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1441,8): warning C4101: newVkCode: неиспользованная локальная переменная
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2686,33): warning C4302: приведение типов: усечение из "LPWSTR" к "WORD"
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2939,2): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2940,2): warning C4551: в вызове функции отсутствует список аргументов
 D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(4689,18): warning C4244: =: преобразование "const wchar_t" в "char", возможна потеря данных
   (компиляция исходного файла "main.cpp")
       D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(4689,18):
       контекст создания экземпляра шаблона (сначала самый старый)
-          C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(142,15):
+          C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(157,15):
           выполняется компиляция ссылки на экземпляр шаблон функции "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)"
           with
           [
@@ -21,7 +21,7 @@ D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.3412
               _Iter=std::_String_const_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
               _Alloc=std::allocator<char>
           ]
-              C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(142,2):
+              C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(157,2):
               см. первую ссылку на "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string" в "wstring_to_string"
           D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(793,17):
           выполняется компиляция ссылки на экземпляр шаблон функции "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<const wchar_t*,const wchar_t*,_Size_type>(_Iter,const _Sent,_Size)"
@@ -42,4 +42,5 @@ D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.3412
               _SizeTy=unsigned int
           ]
   
+  LINK : не найден или не выполнена сборка C:\Users\38301\source\repos\Half-keyboard2\Debug\HalfKeyboard.exe при последней инкрементной компоновке; выполняется полная компоновка
   GetKey.vcxproj -> C:\Users\38301\source\repos\Half-keyboard2\Debug\HalfKeyboard.exe
