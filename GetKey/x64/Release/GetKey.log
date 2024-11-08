@@ -50,8 +50,8 @@ D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.3412
           ]
   
   Создание кода
-  1 of 1414 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+  4 of 1414 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+    8 functions had inline decision re-evaluated but remain unchanged
   Создание кода завершено
   GetKey.vcxproj -> C:\Users\38301\source\repos\Half-keyboard2\x64\Release\HalfKeyboard.exe
