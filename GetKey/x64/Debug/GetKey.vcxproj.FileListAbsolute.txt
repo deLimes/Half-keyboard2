@@ -1,0 +1,2 @@
+C:\Users\38301\source\repos\Half-keyboard2\x64\Debug\HalfKeyboard.exe.lastcodeanalysissucceeded
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\x64\Debug\NativeCodeAnalysis.read.1.tlog

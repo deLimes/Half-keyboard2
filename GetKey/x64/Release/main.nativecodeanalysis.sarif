@@ -1,0 +1,478 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Возвращаемое значение пропущено: \"rename\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/38301/source/repos/Half-keyboard2/GetKey/main.cpp"
+                },
+                "region": {
+                  "startLine": 217,
+                  "startColumn": 2,
+                  "endLine": 217,
+                  "endColumn": 83
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AsyncLogToFile",
+                  "decoratedName": "?AsyncLogToFile@@YAXAEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "\"hwndSuggestions\" может быть равен \"0\":  это не соответствует спецификации функции \"SetWindowTextW\". "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/38301/source/repos/Half-keyboard2/GetKey/main.cpp"
+                },
+                "region": {
+                  "startLine": 841,
+                  "startColumn": 2,
+                  "endLine": 841,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UpdateSuggestionsWindow",
+                  "decoratedName": "?UpdateSuggestionsWindow@@YAXPEAUHWND__@@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/38301/source/repos/Half-keyboard2/GetKey/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 831,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/38301/source/repos/Half-keyboard2/GetKey/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 832,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/38301/source/repos/Half-keyboard2/GetKey/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 835,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/38301/source/repos/Half-keyboard2/GetKey/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 837,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "\"hwndSuggestions\" может быть равно NULL (Войти в эту ветвь)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/38301/source/repos/Half-keyboard2/GetKey/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 838,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/38301/source/repos/Half-keyboard2/GetKey/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 841,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "\"hwndSuggestions\" является аргументом ввода-вывода для \"SetWindowTextW\" (объявлено в d:\\windows kits\\10\\include\\10.0.22621.0\\um\\winuser.h: 8929)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/38301/source/repos/Half-keyboard2/GetKey/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 841,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "\"hwndSuggestions\" не должно равняться NULL, поскольку это не соответствует SAL-аннотации для \"SetWindowTextW\""
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "\"hwndSuggestions\" может быть равен \"0\":  это не соответствует спецификации функции \"SetWindowPos\". Самое раннее расположение, где это могло произойти, см. в строке 841"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/38301/source/repos/Half-keyboard2/GetKey/main.cpp"
+                },
+                "region": {
+                  "startLine": 844,
+                  "startColumn": 2,
+                  "endLine": 844,
+                  "endColumn": 121
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "UpdateSuggestionsWindow",
+                  "decoratedName": "?UpdateSuggestionsWindow@@YAXPEAUHWND__@@AEBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/38301/source/repos/Half-keyboard2/GetKey/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 831,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/38301/source/repos/Half-keyboard2/GetKey/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 832,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/38301/source/repos/Half-keyboard2/GetKey/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 835,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/38301/source/repos/Half-keyboard2/GetKey/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 837,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "\"hwndSuggestions\" может быть равно NULL (Войти в эту ветвь)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/38301/source/repos/Half-keyboard2/GetKey/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 838,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/38301/source/repos/Half-keyboard2/GetKey/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 841,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "\"hwndSuggestions\" является аргументом ввода-вывода для \"SetWindowTextW\" (объявлено в d:\\windows kits\\10\\include\\10.0.22621.0\\um\\winuser.h: 8929)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/38301/source/repos/Half-keyboard2/GetKey/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 844,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "\"hwndSuggestions\" является аргументом ввода-вывода для \"SetWindowPos\" (объявлено в d:\\windows kits\\10\\include\\10.0.22621.0\\um\\winuser.h: 4733)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/38301/source/repos/Half-keyboard2/GetKey/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 844,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "\"hwndSuggestions\" не должно равняться NULL, поскольку это не соответствует SAL-аннотации для \"SetWindowPos\""
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Возвращаемое значение пропущено: \"GetKeyboardState\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/38301/source/repos/Half-keyboard2/GetKey/main.cpp"
+                },
+                "region": {
+                  "startLine": 1140,
+                  "startColumn": 2,
+                  "endLine": 1140,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "GetKeyPressed",
+                  "decoratedName": "?GetKeyPressed@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@I@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6328",
+          "message": {
+            "text": "Несоответствие размера: \"unsigned __int64\" передан в качестве параметра _Param_(2), хотя при вызове \"printf\" требуется \"int\". "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/38301/source/repos/Half-keyboard2/GetKey/main.cpp"
+                },
+                "region": {
+                  "startLine": 2122,
+                  "startColumn": 2,
+                  "endLine": 2122,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MouseProc",
+                  "decoratedName": "?MouseProc@@YA_JH_K_J@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C28251",
+          "message": {
+            "text": "Несогласованная аннотация для \"WinMain\": данный экземпляр содержит нет аннотаций. См. d:\\windows kits\\10\\include\\10.0.22621.0\\um\\winbase.h(1037). "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/38301/source/repos/Half-keyboard2/GetKey/main.cpp"
+                },
+                "region": {
+                  "startLine": 2505,
+                  "startColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "WinMain",
+                  "decoratedName": "WinMain",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.41.34123.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/38301/source/repos/Half-keyboard2/GetKey/main.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "3605fa57ffb03f0bc6e878c7f92988d7119e1d9089a2a1c909205805e30ae50a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/38301/source/repos/half-keyboard2/getkey/resource.h"
+          },
+          "hashes": {
+            "sha-256": "662db2e9fe33c74d73ad5c9b877e6ffece09951cc7cc55e4db212f85f03ca9c9"
+          }
+        }
+      ]
+    }
+  ]
+}
