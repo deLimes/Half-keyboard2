@@ -2,11 +2,11 @@
 D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
 C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1171,20): warning C4018: <: несоответствие типов со знаком и без знака
 C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1351,15): warning C4244: =: преобразование "DWORD" в "char", возможна потеря данных
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1788,26): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1789,26): warning C4244: =: преобразование "DWORD" в "WORD", возможна потеря данных
 C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(1326,8): warning C4101: newVkCode: неиспользованная локальная переменная
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2586,33): warning C4302: приведение типов: усечение из "LPWSTR" к "WORD"
-C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2839,2): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2587,33): warning C4302: приведение типов: усечение из "LPWSTR" к "WORD"
 C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2840,2): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\38301\source\repos\Half-keyboard2\GetKey\main.cpp(2841,2): warning C4551: в вызове функции отсутствует список аргументов
 D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(4689,18): warning C4244: =: преобразование "const wchar_t" в "char", возможна потеря данных
   (компиляция исходного файла "main.cpp")
       D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xutility(4689,18):
